@@ -1,14 +1,12 @@
 # Ephemeral Wisdom
 
-One product/design/lateral-thinking insight at a time — and its counterpoint. It's built to make you think, not to confirm what you already believe.
+One product/design/lateral-thinking insight at a time....and its counterpoint. It's built as an exercise to make you think and challenge your thinking. 
 
-**[Live demo](https://YOUR-GITHUB-USERNAME.github.io/ephemeral-wisdom/)** _(update this link once GitHub Pages is live — see Deploying below)_
-
-<!-- Add a screenshot here once deployed, e.g.: ![screenshot](./docs/screenshot.png) -->
+**[Live demo](https://rumcguinness.github.io/ephemeral-wisdom/)**
 
 ## Why I built this
 
-Most advice in product, design, and creative work is stated as if it's universally true. It rarely is — most good advice has an equally good counter-argument depending on context. This app forces that tension into the open: it shows you one piece of wisdom, and only reveals the counterpoint when you ask for it. The point isn't to pick a side — it's to notice you were about to agree with the first thing you read.
+Most advice in product and creative work is stated as if it's universally true. It rarely is though...and most good advice has an equally good counter-argument depending on context. This app forces that tension: it shows you one piece of wisdom, and only reveals the counterpoint when you ask for it. The point isn't to pick a side....it's to notice you were about to agree with the first thing you read.
 
 ## How it works
 
@@ -18,7 +16,7 @@ Most advice in product, design, and creative work is stated as if it's universal
 
 ## Stack
 
-React + TypeScript + Vite, Vitest + React Testing Library for tests, GitHub Actions for CI/deploy. No CSS framework — styling is plain CSS using a small set of custom properties (design tokens) carried over from the original version of this project.
+React + TypeScript + Vite, Vitest + React Testing Library for tests, GitHub Actions for CI/deploy. No CSS framework — styling is plain CSS using a small set of custom properties carried over from the original version of this project.
 
 ## Running locally
 
@@ -39,7 +37,7 @@ This repo is set up to deploy to GitHub Pages automatically:
 
 1. Push this repo to GitHub as `ephemeral-wisdom` (or update `base` in `vite.config.ts` to match whatever you name it).
 2. In the repo settings, under **Pages**, set the source to **GitHub Actions**.
-3. Push to `main` — the included workflow (`.github/workflows/deploy.yml`) builds, tests, and deploys automatically.
+3. Push to `main` — the included workflow (`.github/workflows/static.yml`) builds and deploys automatically.
 4. Your site will be live at `https://<your-username>.github.io/ephemeral-wisdom/`.
 
 ## Background
