@@ -1,0 +1,2342 @@
+[
+    {
+        "wisdom": "The quietest moments often speak the loudest truths.",
+        "counterpoint": "But sometimes truth needs a thunderous voice to be heard."
+    },
+    {
+        "wisdom": "Every ending is just a beginning in disguise.",
+        "counterpoint": "Some endings are truly final, and that's okay too."
+    },
+    {
+        "wisdom": "Your greatest weakness can become your greatest strength.",
+        "counterpoint": "Not everything needs to be transformed; some things are best accepted as they are."
+    },
+    {
+        "wisdom": "The path less traveled reveals the most beautiful views.",
+        "counterpoint": "Popular paths are popular for good reasons too."
+    },
+    {
+        "wisdom": "Time is the wisest counselor.",
+        "counterpoint": "But waiting too long can mean missing opportunities."
+    },
+    {
+        "wisdom": "Embrace the discomfort of uncertainty.",
+        "counterpoint": "Seek certainty before making decisions."
+    },
+    {
+        "wisdom": "Fail fast, learn faster.",
+        "counterpoint": "Take time to refine before moving on."
+    },
+    {
+        "wisdom": "Focus on outcomes, not outputs.",
+        "counterpoint": "Deliver the process, not just the results."
+    },
+    {
+        "wisdom": "Disrupt your own thinking to innovate.",
+        "counterpoint": "Stick to the known methods to maintain consistency."
+    },
+    {
+        "wisdom": "Challenge assumptions, they are often wrong.",
+        "counterpoint": "Follow established truths to avoid risks."
+    },
+    {
+        "wisdom": "Platform thinking starts with enabling others' success.",
+        "counterpoint": "Focus on your core value proposition first."
+    },
+    {
+        "wisdom": "Design systems scale design thinking.",
+        "counterpoint": "Each feature needs unique design consideration."
+    },
+    {
+        "wisdom": "Team velocity is measured in insights, not stories.",
+        "counterpoint": "Sprint metrics drive team performance."
+    },
+    {
+        "wisdom": "Product DNA is in your first ten decisions.",
+        "counterpoint": "Products evolve beyond their origins."
+    },
+    {
+        "wisdom": "Flow state beats feature state.",
+        "counterpoint": "Feature completeness drives user satisfaction."
+    },
+    {
+        "wisdom": "Internal tools reveal product maturity.",
+        "counterpoint": "Focus on customer-facing features."
+    },
+    {
+        "wisdom": "Product habits form at the edges of existing habits.",
+        "counterpoint": "Create entirely new user behaviors."
+    },
+    {
+        "wisdom": "API design is UX design.",
+        "counterpoint": "Separate technical and user experience concerns."
+    },
+    {
+        "wisdom": "Documentation is a product feature.",
+        "counterpoint": "Intuitive products need minimal documentation."
+    },
+    {
+        "wisdom": "Successful products sell time, not features.",
+        "counterpoint": "Feature value drives purchase decisions."
+    },
+    {
+        "wisdom": "User mental models beat business models.",
+        "counterpoint": "Business viability should drive product decisions."
+    },
+    {
+        "wisdom": "Product experience is the sum of skipped steps.",
+        "counterpoint": "Each step adds necessary value."
+    },
+    {
+        "wisdom": "Great animations are like good manners.",
+        "counterpoint": "Performance beats polish."
+    },
+    {
+        "wisdom": "Product architecture should map to user goals.",
+        "counterpoint": "Technical architecture drives product structure."
+    },
+    {
+        "wisdom": "Each setting doubles support costs.",
+        "counterpoint": "Customization creates user loyalty."
+    },
+    {
+        "wisdom": "Migration is a feature, not a project.",
+        "counterpoint": "Handle migrations as separate initiatives."
+    },
+    {
+        "wisdom": "Community feedback needs product translation.",
+        "counterpoint": "Direct user requests guide development."
+    },
+    {
+        "wisdom": "Product storytelling begins with user storytelling.",
+        "counterpoint": "Product capabilities drive the narrative."
+    },
+    {
+        "wisdom": "Feature discovery should feel like treasure hunting.",
+        "counterpoint": "Make all features immediately obvious."
+    },
+    {
+        "wisdom": "System status should tell user stories.",
+        "counterpoint": "Keep status messages technical and precise."
+    },
+    {
+        "wisdom": "Integration decisions are product decisions.",
+        "counterpoint": "Technical requirements drive integration choices."
+    },
+    {
+        "wisdom": "The best error messages prevent errors.",
+        "counterpoint": "Handle errors when they occur."
+    },
+    {
+        "wisdom": "Product pricing is product design.",
+        "counterpoint": "Set prices based on market rates."
+    },
+    {
+        "wisdom": "Engagement metrics need empathy metrics.",
+        "counterpoint": "Quantitative data tells the full story."
+    },
+    {
+        "wisdom": "Your information hierarchy is your innovation hierarchy.",
+        "counterpoint": "Innovation can happen anywhere in the product."
+    },
+    {
+        "wisdom": "User goals have versions, not features.",
+        "counterpoint": "Feature versions drive product evolution."
+    },
+    {
+        "wisdom": "Product market fit starts with problem market fit.",
+        "counterpoint": "Solution validation determines market fit."
+    },
+    {
+        "wisdom": "Keystrokes measure user investment.",
+        "counterpoint": "Time spent shows user engagement."
+    },
+    {
+        "wisdom": "First-run experience predicts churn rate.",
+        "counterpoint": "Long-term value drives retention."
+    },
+    {
+        "wisdom": "Product leadership is expectation management.",
+        "counterpoint": "Push boundaries to drive innovation."
+    },
+    {
+        "wisdom": "Feature coupling reveals product thinking.",
+        "counterpoint": "Keep features independent and modular."
+    },
+    {
+        "wisdom": "Successful products feel like superpowers.",
+        "counterpoint": "Products should solve specific problems."
+    },
+    {
+        "wisdom": "User flows are user stories in motion.",
+        "counterpoint": "Feature specifications drive development."
+    },
+    {
+        "wisdom": "Product vision needs both telescope and microscope.",
+        "counterpoint": "Focus on one perspective at a time."
+    },
+    {
+        "wisdom": "The best defaults predict, not assume.",
+        "counterpoint": "Let users set their preferences."
+    },
+    {
+        "wisdom": "Feature naming shapes feature usage.",
+        "counterpoint": "Functionality matters more than naming."
+    },
+    {
+        "wisdom": "Successful pilots measure learning, not results.",
+        "counterpoint": "Pilot results predict product success."
+    },
+    {
+        "wisdom": "Product experience is the absence of experience.",
+        "counterpoint": "Create memorable product moments."
+    },
+    {
+        "wisdom": "Team alignment beats team agreement.",
+        "counterpoint": "Consensus drives better decisions."
+    },
+    {
+        "wisdom": "Product insights compound like interest.",
+        "counterpoint": "Each insight stands alone."
+    },
+    {
+        "wisdom": "Support burden measures product clarity.",
+        "counterpoint": "Complex products need support."
+    },
+    {
+        "wisdom": "Release frequency measures team health.",
+        "counterpoint": "Quality matters more than frequency."
+    },
+    {
+        "wisdom": "Product decisions are really bet sizing.",
+        "counterpoint": "Make decisions based on certainty."
+    },
+    {
+        "wisdom": "User research needs both maps and compasses.",
+        "counterpoint": "Follow a single research direction."
+    },
+    {
+        "wisdom": "Product strategy lives in small decisions.",
+        "counterpoint": "Big decisions shape product direction."
+    },
+    {
+        "wisdom": "When prioritizing features, remember zero is a number.",
+        "counterpoint": "Complete feature sets create market advantage."
+    },
+    {
+        "wisdom": "The best user research starts with 'Show me how you...'",
+        "counterpoint": "Direct questions yield clearer answers."
+    },
+    {
+        "wisdom": "A product's personality lives in its microcopy.",
+        "counterpoint": "Focus on functionality over tone."
+    },
+    {
+        "wisdom": "Technical debt is product debt.",
+        "counterpoint": "Ship now, optimize later."
+    },
+    {
+        "wisdom": "Every notification should feel like a gift.",
+        "counterpoint": "Keep users informed of all system states."
+    },
+    {
+        "wisdom": "Five users reveal 80% of usability issues.",
+        "counterpoint": "Larger sample sizes yield better insights."
+    },
+    {
+        "wisdom": "Product culture eats product strategy.",
+        "counterpoint": "Clear strategy drives successful execution."
+    },
+    {
+        "wisdom": "The riskiest assumption is thinking you know the answer.",
+        "counterpoint": "Trust your product expertise."
+    },
+    {
+        "wisdom": "North Star metrics should measure value, not vanity.",
+        "counterpoint": "Growth metrics drive business decisions."
+    },
+    {
+        "wisdom": "Personas without context are just demographics.",
+        "counterpoint": "Clear user segments guide development."
+    },
+    {
+        "wisdom": "A broken workflow beats a perfect feature.",
+        "counterpoint": "Perfect individual components first."
+    },
+    {
+        "wisdom": "Product development is diplomacy with reality.",
+        "counterpoint": "Strong vision requires unwavering direction."
+    },
+    {
+        "wisdom": "Every setting is a product failure.",
+        "counterpoint": "Customization creates user value."
+    },
+    {
+        "wisdom": "User problems are fractal; zoom until actionable.",
+        "counterpoint": "Tackle big problems directly."
+    },
+    {
+        "wisdom": "The best integrations feel like native features.",
+        "counterpoint": "Clear boundaries between systems are important."
+    },
+    {
+        "wisdom": "Churn happens one disappointment at a time.",
+        "counterpoint": "Users leave for competitor features."
+    },
+    {
+        "wisdom": "Product-market fit feels like holding back a flood.",
+        "counterpoint": "Sustainable growth is steady and controlled."
+    },
+    {
+        "wisdom": "Design systems, not screens.",
+        "counterpoint": "Perfect each interaction independently."
+    },
+    {
+        "wisdom": "Cohort analysis tells stories data can't.",
+        "counterpoint": "Aggregate metrics show the full picture."
+    },
+    {
+        "wisdom": "The best AB tests challenge assumptions.",
+        "counterpoint": "Test for optimization, not validation."
+    },
+    {
+        "wisdom": "Feature bloat starts with 'while we're at it...'",
+        "counterpoint": "Seize opportunities for enhancement."
+    },
+    {
+        "wisdom": "User segments are discovered, not declared.",
+        "counterpoint": "Define target segments clearly upfront."
+    },
+    {
+        "wisdom": "Empty states are first impressions.",
+        "counterpoint": "Focus on active user experiences."
+    },
+    {
+        "wisdom": "Each additional step halves your users.",
+        "counterpoint": "Necessary friction creates value."
+    },
+    {
+        "wisdom": "Beta tests reveal intent, not usability.",
+        "counterpoint": "Beta feedback drives development."
+    },
+    {
+        "wisdom": "Product narratives beat product roadmaps.",
+        "counterpoint": "Concrete timelines drive execution."
+    },
+    {
+        "wisdom": "Edge cases define product excellence.",
+        "counterpoint": "Optimize for the common case."
+    },
+    {
+        "wisdom": "Success metrics should survive coffee stains.",
+        "counterpoint": "Detailed analytics drive better decisions."
+    },
+    {
+        "wisdom": "Great onboarding feels like exploration.",
+        "counterpoint": "Guide users explicitly through features."
+    },
+    {
+        "wisdom": "Customer journey maps are more valuable than feature maps.",
+        "counterpoint": "Feature roadmaps drive development."
+    },
+    {
+        "wisdom": "Product insights hide in support tickets.",
+        "counterpoint": "User research should drive insights."
+    },
+    {
+        "wisdom": "Early adopters are more forgiving than forgetful.",
+        "counterpoint": "Launch only when fully polished."
+    },
+    {
+        "wisdom": "User motivation beats user ability.",
+        "counterpoint": "Reduce friction at all costs."
+    },
+    {
+        "wisdom": "Product hooks beat product features.",
+        "counterpoint": "Features drive user acquisition."
+    },
+    {
+        "wisdom": "Release notes reveal product culture.",
+        "counterpoint": "Focus on technical accuracy in updates."
+    },
+    {
+        "wisdom": "User empathy starts with session replays.",
+        "counterpoint": "Direct user feedback is most valuable."
+    },
+    {
+        "wisdom": "Great products create vocabulary.",
+        "counterpoint": "Use established terminology."
+    },
+    {
+        "wisdom": "Loading states are branding states.",
+        "counterpoint": "Focus on minimizing wait times."
+    },
+    {
+        "wisdom": "Freemium is pricing, not a business model.",
+        "counterpoint": "Free users convert to paying customers."
+    },
+    {
+        "wisdom": "Feature adoption follows feature adjacency.",
+        "counterpoint": "Market new features independently."
+    },
+    {
+        "wisdom": "Product hierarchy should match user hierarchy.",
+        "counterpoint": "Organize by technical architecture."
+    },
+    {
+        "wisdom": "NPS measures emotion, not satisfaction.",
+        "counterpoint": "Objective metrics drive decisions."
+    },
+    {
+        "wisdom": "Viral loops begin with user value.",
+        "counterpoint": "Growth features drive virality."
+    },
+    {
+        "wisdom": "Information architecture is your product's grammar.",
+        "counterpoint": "Search solves navigation problems."
+    },
+    {
+        "wisdom": "Ecosystem beats feature set.",
+        "counterpoint": "Core functionality drives success."
+    },
+    {
+        "wisdom": "User mistakes are design mistakes.",
+        "counterpoint": "Users need to learn proper usage."
+    },
+    {
+        "wisdom": "Landing pages test positioning, not product.",
+        "counterpoint": "Website conversion shows product value."
+    },
+    {
+        "wisdom": "The most valuable insights come from unexpected places.",
+        "counterpoint": "Focus on established research channels."
+    },
+    {
+        "wisdom": "Measure engagement before measuring growth.",
+        "counterpoint": "Growth metrics drive business success."
+    },
+    {
+        "wisdom": "Customer complaints are feature requests in disguise.",
+        "counterpoint": "Take user complaints at face value."
+    },
+    {
+        "wisdom": "A good onboarding feels like a conversation.",
+        "counterpoint": "Get users to the product as quickly as possible."
+    },
+    {
+        "wisdom": "Product vision should terrify and excite in equal measure.",
+        "counterpoint": "Keep vision practical and achievable."
+    },
+    {
+        "wisdom": "Write the press release before writing the spec.",
+        "counterpoint": "Focus on technical requirements first."
+    },
+    {
+        "wisdom": "The best user stories start with user struggles.",
+        "counterpoint": "Build from product capabilities outward."
+    },
+    {
+        "wisdom": "Great products are bought, not sold.",
+        "counterpoint": "Marketing and sales drive product success."
+    },
+    {
+        "wisdom": "Speed of learning beats speed of execution.",
+        "counterpoint": "Quick execution wins the market."
+    },
+    {
+        "wisdom": "Your product is only as good as its error messages.",
+        "counterpoint": "Focus on the happy path first."
+    },
+    {
+        "wisdom": "Innovation happens at the edges of possibility.",
+        "counterpoint": "Focus on proven solution spaces."
+    },
+    {
+        "wisdom": "The best roadmaps are written in pencil.",
+        "counterpoint": "Commit to clear delivery timelines."
+    },
+    {
+        "wisdom": "Every feature has a maintenance cost.",
+        "counterpoint": "Build for completeness first."
+    },
+    {
+        "wisdom": "Users buy outcomes, not features.",
+        "counterpoint": "Feature sets drive purchasing decisions."
+    },
+    {
+        "wisdom": "Make the right thing the easy thing.",
+        "counterpoint": "Users should have full control over their workflow."
+    },
+    {
+        "wisdom": "Better beats best.",
+        "counterpoint": "Only ship excellence."
+    },
+    {
+        "wisdom": "Product strategy is saying no to good ideas.",
+        "counterpoint": "Explore all promising opportunities."
+    },
+    {
+        "wisdom": "Markets reward different more than better.",
+        "counterpoint": "Perfect your core offering first."
+    },
+    {
+        "wisdom": "What users do matters more than what they say.",
+        "counterpoint": "Listen to your users' explicit feedback."
+    },
+    {
+        "wisdom": "The best features remove complexity.",
+        "counterpoint": "Add power through added capabilities."
+    },
+    {
+        "wisdom": "Build for verbs, not nouns.",
+        "counterpoint": "Focus on clear feature definitions."
+    },
+    {
+        "wisdom": "Great products create new behaviors.",
+        "counterpoint": "Design for existing user habits."
+    },
+    {
+        "wisdom": "Your product is as strong as its weakest handoff.",
+        "counterpoint": "Focus on core feature excellence."
+    },
+    {
+        "wisdom": "Product taste is knowing what to leave out.",
+        "counterpoint": "Comprehensiveness creates value."
+    },
+    {
+        "wisdom": "Launch anxiety means you're innovating.",
+        "counterpoint": "Only launch when fully confident."
+    },
+    {
+        "wisdom": "User problems are stable, solutions evolve.",
+        "counterpoint": "Innovation creates new user needs."
+    },
+    {
+        "wisdom": "Make decisions reversible by default.",
+        "counterpoint": "Commit fully to chosen directions."
+    },
+    {
+        "wisdom": "The best interfaces feel like suggestions.",
+        "counterpoint": "Interfaces should be explicit and clear."
+    },
+    {
+        "wisdom": "Product development is conversation with reality.",
+        "counterpoint": "Follow the original vision strictly."
+    },
+    {
+        "wisdom": "Usage patterns tell better stories than user stories.",
+        "counterpoint": "User narratives drive better understanding."
+    },
+    {
+        "wisdom": "Think in systems, build in increments.",
+        "counterpoint": "Build the complete vision from the start."
+    },
+    {
+        "wisdom": "Your MVP should be both minimal and viable.",
+        "counterpoint": "Launch with full feature completeness."
+    },
+    {
+        "wisdom": "The best products feel inevitable.",
+        "counterpoint": "True innovation feels revolutionary."
+    },
+    {
+        "wisdom": "Every click should be a decision.",
+        "counterpoint": "Minimize user decision points."
+    },
+    {
+        "wisdom": "Product intuition comes from a thousand small observations.",
+        "counterpoint": "Trust your initial product instincts."
+    },
+    {
+        "wisdom": "Delight lives in the details.",
+        "counterpoint": "Focus on core functionality first."
+    },
+    {
+        "wisdom": "Users remember how you make them feel.",
+        "counterpoint": "Features drive user retention."
+    },
+    {
+        "wisdom": "Make the first minute magical.",
+        "counterpoint": "Focus on long-term user value."
+    },
+    {
+        "wisdom": "Start with experience, end with features.",
+        "counterpoint": "Build features that drive experiences."
+    },
+    {
+        "wisdom": "Product development is hypothesis testing.",
+        "counterpoint": "Follow proven development methodologies."
+    },
+    {
+        "wisdom": "The best metrics measure outcomes, not actions.",
+        "counterpoint": "Track all user activities meticulously."
+    },
+    {
+        "wisdom": "Your product's biggest competitor is non-consumption.",
+        "counterpoint": "Focus on beating direct competitors in your space."
+    },
+    {
+        "wisdom": "Fall in love with the problem, not your solution.",
+        "counterpoint": "Strong vision requires unwavering commitment to a solution."
+    },
+    {
+        "wisdom": "The best MVPs create value while being embarrassingly simple.",
+        "counterpoint": "Launch with quality to build brand trust."
+    },
+    {
+        "wisdom": "Your roadmap is a compass, not a contract.",
+        "counterpoint": "Committed timelines drive team alignment."
+    },
+    {
+        "wisdom": "Good products solve problems, great products enable possibilities.",
+        "counterpoint": "Focus on solving concrete user pain points."
+    },
+    {
+        "wisdom": "Every feature adds complexity; make it worth it.",
+        "counterpoint": "Feature richness creates product value."
+    },
+    {
+        "wisdom": "The hardest part of design is deciding what not to include.",
+        "counterpoint": "Comprehensiveness beats minimalism."
+    },
+    {
+        "wisdom": "Customer feedback is a gift, even when it hurts.",
+        "counterpoint": "Customers don't always know what's best."
+    },
+    {
+        "wisdom": "Prototype the unknown, build the understood.",
+        "counterpoint": "Consistency in approach leads to better products."
+    },
+    {
+        "wisdom": "The best insights come from watching, not asking.",
+        "counterpoint": "Direct feedback is more reliable than observation."
+    },
+    {
+        "wisdom": "Your first idea is a starting point, not a solution.",
+        "counterpoint": "Trust your initial instincts."
+    },
+    {
+        "wisdom": "Great products make the user feel clever.",
+        "counterpoint": "Products should do the heavy lifting for users."
+    },
+    {
+        "wisdom": "Ship to learn, not to be right.",
+        "counterpoint": "Ship when you're confident in the solution."
+    },
+    {
+        "wisdom": "Focus groups tell you about the past, prototypes about the future.",
+        "counterpoint": "User research should drive product direction."
+    },
+    {
+        "wisdom": "The best features feel inevitable in retrospect.",
+        "counterpoint": "Innovation should surprise and delight."
+    },
+    {
+        "wisdom": "Product-market fit is found, not planned.",
+        "counterpoint": "Strategic planning leads to product success."
+    },
+    {
+        "wisdom": "Users don't buy products, they hire them for a job.",
+        "counterpoint": "Brand and features drive purchasing decisions."
+    },
+    {
+        "wisdom": "A prototype is worth a thousand meetings.",
+        "counterpoint": "Thorough planning prevents costly mistakes."
+    },
+    {
+        "wisdom": "Make the default path the right path.",
+        "counterpoint": "Users should have full control over their workflow."
+    },
+    {
+        "wisdom": "If you need to explain it, it's not intuitive enough.",
+        "counterpoint": "Complex tools require learning curves."
+    },
+    {
+        "wisdom": "Build for the novice, configure for the expert.",
+        "counterpoint": "Target your core user persona exclusively."
+    },
+    {
+        "wisdom": "Your product is only as good as its weakest use case.",
+        "counterpoint": "Focus on optimizing the primary use case."
+    },
+    {
+        "wisdom": "The best products create habits, not features.",
+        "counterpoint": "Feature completeness drives adoption."
+    },
+    {
+        "wisdom": "Solve for user goals, not user requests.",
+        "counterpoint": "Give users exactly what they ask for."
+    },
+    {
+        "wisdom": "Every click should be a confident click.",
+        "counterpoint": "Users will learn complex interfaces over time."
+    },
+    {
+        "wisdom": "Innovation happens in the gaps between features.",
+        "counterpoint": "Innovation comes from feature enhancement."
+    },
+    {
+        "wisdom": "The best user research is done in silence.",
+        "counterpoint": "Active questioning yields better insights."
+    },
+    {
+        "wisdom": "Embrace constraints as creative fuel.",
+        "counterpoint": "Remove constraints to enable innovation."
+    },
+    {
+        "wisdom": "Your first version should be both embarrassing and proud.",
+        "counterpoint": "Never release anything below your standards."
+    },
+    {
+        "wisdom": "Features are commodities, experiences are unique.",
+        "counterpoint": "Feature parity is essential for competition."
+    },
+    {
+        "wisdom": "Start with the riskiest assumption.",
+        "counterpoint": "Build from your strongest certainties."
+    },
+    {
+        "wisdom": "The best products feel like conversations.",
+        "counterpoint": "Products should be tools, not companions."
+    },
+    {
+        "wisdom": "Design for the emotion, build for the function.",
+        "counterpoint": "Function should always precede form."
+    },
+    {
+        "wisdom": "Your interface is only as intuitive as your users' mental models.",
+        "counterpoint": "Users will adapt to better mental models."
+    },
+    {
+        "wisdom": "Copy is interface, interface is copy.",
+        "counterpoint": "Visual design drives user understanding."
+    },
+    {
+        "wisdom": "The best features are discovered, not planned.",
+        "counterpoint": "Strategic planning yields better features."
+    },
+    {
+        "wisdom": "Your product's edges define its center.",
+        "counterpoint": "Focus on core functionality first."
+    },
+    {
+        "wisdom": "Make it work, then make it right, then make it fast.",
+        "counterpoint": "Get it right the first time."
+    },
+    {
+        "wisdom": "The best products solve tomorrow's problems today.",
+        "counterpoint": "Solve today's problems perfectly first."
+    },
+    {
+        "wisdom": "User delight lives in microseconds.",
+        "counterpoint": "Overall functionality matters more than speed."
+    },
+    {
+        "wisdom": "Build for regular users, not edge cases.",
+        "counterpoint": "Edge cases define product excellence."
+    },
+    {
+        "wisdom": "Product strategy is choosing what not to do.",
+        "counterpoint": "Expand capabilities to capture opportunity."
+    },
+    {
+        "wisdom": "Great products are obvious in retrospect.",
+        "counterpoint": "Innovation should feel revolutionary."
+    },
+    {
+        "wisdom": "The best features eliminate steps, not add them.",
+        "counterpoint": "More options create more value."
+    },
+    {
+        "wisdom": "Users remember journeys, not touchpoints.",
+        "counterpoint": "Perfect each interaction independently."
+    },
+    {
+        "wisdom": "Make the complex feel simple, not the simple complex.",
+        "counterpoint": "Sophisticated problems need sophisticated interfaces."
+    },
+    {
+        "wisdom": "Data shows behavior, stories show motivation.",
+        "counterpoint": "Quantitative data tells the full story."
+    },
+    {
+        "wisdom": "Your second worst feature limits your best feature.",
+        "counterpoint": "Focus on maximizing strengths."
+    },
+    {
+        "wisdom": "The best products feel like they're reading your mind.",
+        "counterpoint": "Users should remain in explicit control."
+    },
+    {
+        "wisdom": "Design for the next action, not the current state.",
+        "counterpoint": "Focus on perfecting the current interaction."
+    },
+    {
+        "wisdom": "Product intuition comes from obsessing over user behavior.",
+        "counterpoint": "Trust your creative vision."
+    },
+    {
+        "wisdom": "The best interfaces disappear.",
+        "counterpoint": "Interfaces should showcase their power."
+    },
+    {
+        "wisdom": "Every feature request hides a deeper user need.",
+        "counterpoint": "Sometimes users know exactly what they want."
+    },
+    {
+        "wisdom": "Innovation lives in the space between user needs and technical feasibility.",
+        "counterpoint": "Build what users explicitly ask for."
+    },
+    {
+        "wisdom": "The most dangerous words in product are 'users will love this'.",
+        "counterpoint": "Trust your product intuition."
+    },
+    {
+        "wisdom": "Features you say no to define your product more than those you say yes to.",
+        "counterpoint": "More features create more value opportunities."
+    },
+    {
+        "wisdom": "Product-market fit feels like pushing a boulder downhill.",
+        "counterpoint": "Success comes from consistent, steady effort."
+    },
+    {
+        "wisdom": "Your first version should make early users smile, not everyone happy.",
+        "counterpoint": "Build for the mainstream from the start."
+    },
+    {
+        "wisdom": "The best user research happens when you shut up and listen.",
+        "counterpoint": "Guide users to articulate their needs."
+    },
+    {
+        "wisdom": "Build what users do, not what they say.",
+        "counterpoint": "User feedback should drive development directly."
+    },
+    {
+        "wisdom": "If you can't explain your feature in one sentence, it's too complex.",
+        "counterpoint": "Complex problems require nuanced solutions."
+    },
+    {
+        "wisdom": "Your interface is only as intuitive as your users' existing habits.",
+        "counterpoint": "Innovation requires breaking old habits."
+    },
+    {
+        "wisdom": "The best products create new user behaviors.",
+        "counterpoint": "Design for existing user behaviors."
+    },
+    {
+        "wisdom": "Data tells you what, users tell you why.",
+        "counterpoint": "Let data drive all decision making."
+    },
+    {
+        "wisdom": "Every extra click should provide extra value.",
+        "counterpoint": "Some complexity is necessary for power users."
+    },
+    {
+        "wisdom": "Product development is more archaeology than architecture.",
+        "counterpoint": "Great products come from clear architectural vision."
+    },
+    {
+        "wisdom": "Users remember flows, not features.",
+        "counterpoint": "Feature completeness drives adoption."
+    },
+    {
+        "wisdom": "The most innovative solutions come from reframing the problem.",
+        "counterpoint": "Stay focused on solving the stated problem."
+    },
+    {
+        "wisdom": "Your product's personality is in its edge cases.",
+        "counterpoint": "Design for the common use cases first."
+    },
+    {
+        "wisdom": "Good UX is invisible, great UX is memorable.",
+        "counterpoint": "Consistency matters more than memorability."
+    },
+    {
+        "wisdom": "Build futures, not features.",
+        "counterpoint": "Focus on immediate user needs."
+    },
+    {
+        "wisdom": "The best products feel inevitable in retrospect.",
+        "counterpoint": "True innovation feels foreign at first."
+    },
+    {
+        "wisdom": "Your product's gaps are as important as its features.",
+        "counterpoint": "Comprehensiveness builds product value."
+    },
+    {
+        "wisdom": "Users don't want your product; they want their problem solved.",
+        "counterpoint": "Brand loyalty drives long-term success."
+    },
+    {
+        "wisdom": "The best feature requests are complaints in disguise.",
+        "counterpoint": "Users often know exactly what they need."
+    },
+    {
+        "wisdom": "Great products are grown, not built.",
+        "counterpoint": "Clear architecture requires upfront design."
+    },
+    {
+        "wisdom": "Your product's story is more important than its feature list.",
+        "counterpoint": "Features and capabilities drive adoption."
+    },
+    {
+        "wisdom": "The best innovations combine existing ideas in new ways.",
+        "counterpoint": "Breakthrough products require new inventions."
+    },
+    {
+        "wisdom": "Design for the user you want, not just the user you have.",
+        "counterpoint": "Focus on your current user base."
+    },
+    {
+        "wisdom": "Product strategy is about saying no.",
+        "counterpoint": "Growth requires embracing opportunities."
+    },
+    {
+        "wisdom": "Launch to learn, not to prove.",
+        "counterpoint": "Launch when you're confident in success."
+    },
+    {
+        "wisdom": "Every interaction should move users toward their goal.",
+        "counterpoint": "Delight matters as much as efficiency."
+    },
+    {
+        "wisdom": "Systems thinking reveals hidden product opportunities.",
+        "counterpoint": "Focus on immediate user needs."
+    },
+    {
+        "wisdom": "User psychology drives feature adoption.",
+        "counterpoint": "Feature value speaks for itself."
+    },
+    {
+        "wisdom": "Innovation happens between departments, not within them.",
+        "counterpoint": "Specialized teams drive breakthroughs."
+    },
+    {
+        "wisdom": "Growth loops matter more than growth hacks.",
+        "counterpoint": "Quick wins accelerate growth."
+    },
+    {
+        "wisdom": "Product debt compounds like technical debt.",
+        "counterpoint": "Focus on current user satisfaction."
+    },
+    {
+        "wisdom": "Business model innovation beats feature innovation.",
+        "counterpoint": "Product features drive business success."
+    },
+    {
+        "wisdom": "User motivation explains user behavior.",
+        "counterpoint": "Track actions, not intentions."
+    },
+    {
+        "wisdom": "Product culture shows in error messages.",
+        "counterpoint": "Focus on the happy path."
+    },
+    {
+        "wisdom": "Interface patterns are design promises.",
+        "counterpoint": "Each feature needs unique treatment."
+    },
+    {
+        "wisdom": "Customer success is proactive product management.",
+        "counterpoint": "Separate customer success from product."
+    },
+    {
+        "wisdom": "Product narratives need conflict to be compelling.",
+        "counterpoint": "Focus on positive product aspects."
+    },
+    {
+        "wisdom": "Prototype fidelity should match certainty.",
+        "counterpoint": "Always prototype at high fidelity."
+    },
+    {
+        "wisdom": "Feature boundaries reveal mental models.",
+        "counterpoint": "Organize features by technical logic."
+    },
+    {
+        "wisdom": "User research needs both depth and breadth.",
+        "counterpoint": "Focus on your core user segment."
+    },
+    {
+        "wisdom": "Product hierarchy reflects value hierarchy.",
+        "counterpoint": "Organize for technical efficiency."
+    },
+    {
+        "wisdom": "Implementation details are user details.",
+        "counterpoint": "Abstract technical complexity away."
+    },
+    {
+        "wisdom": "Market timing beats feature completeness.",
+        "counterpoint": "Launch only when fully ready."
+    },
+    {
+        "wisdom": "User emotions predict user actions.",
+        "counterpoint": "Focus on behavioral data."
+    },
+    {
+        "wisdom": "Product experiences are memory management.",
+        "counterpoint": "Focus on immediate interactions."
+    },
+    {
+        "wisdom": "Feedback loops should close emotionally.",
+        "counterpoint": "Keep feedback functional and direct."
+    },
+    {
+        "wisdom": "Product surface area grows exponentially.",
+        "counterpoint": "Keep product scope focused."
+    },
+    {
+        "wisdom": "User trust builds geometrically, breaks instantly.",
+        "counterpoint": "Users forgive occasional issues."
+    },
+    {
+        "wisdom": "Cross-functional insights drive innovation.",
+        "counterpoint": "Deep domain expertise matters most."
+    },
+    {
+        "wisdom": "Product intuition comes from pattern recognition.",
+        "counterpoint": "Trust data over intuition."
+    },
+    {
+        "wisdom": "Feature value decays over time.",
+        "counterpoint": "Core features retain their value."
+    },
+    {
+        "wisdom": "Product experience is expectation management.",
+        "counterpoint": "Exceed expectations consistently."
+    },
+    {
+        "wisdom": "Team velocity is measured in learning.",
+        "counterpoint": "Delivery speed drives success."
+    },
+    {
+        "wisdom": "User segments emerge, they aren't created.",
+        "counterpoint": "Define target segments clearly."
+    },
+    {
+        "wisdom": "Platform value grows with ecosystem variety.",
+        "counterpoint": "Focus on core platform features."
+    },
+    {
+        "wisdom": "Engagement depth beats engagement breadth.",
+        "counterpoint": "Maximize total user engagement."
+    },
+    {
+        "wisdom": "Product storytelling needs both plot and theme.",
+        "counterpoint": "Focus on feature benefits."
+    },
+    {
+        "wisdom": "Innovation needs both freedom and constraints.",
+        "counterpoint": "Remove barriers to innovation."
+    },
+    {
+        "wisdom": "User behavior follows effort gradients.",
+        "counterpoint": "Users pursue maximum value."
+    },
+    {
+        "wisdom": "Product quality is perceived relatively.",
+        "counterpoint": "Maintain absolute quality standards."
+    },
+    {
+        "wisdom": "Network effects start with individual value.",
+        "counterpoint": "Focus on community features first."
+    },
+    {
+        "wisdom": "Product ecosystems need gravity, not walls.",
+        "counterpoint": "Lock-in drives retention."
+    },
+    {
+        "wisdom": "Discovery happens through curiosity, not necessity.",
+        "counterpoint": "Users find features when they need them."
+    },
+    {
+        "wisdom": "Retention is a series of small wins.",
+        "counterpoint": "Core value drives retention."
+    },
+    {
+        "wisdom": "Product positioning is sacrifice.",
+        "counterpoint": "Appeal to the broadest market possible."
+    },
+    {
+        "wisdom": "Team conflict reveals product clarity.",
+        "counterpoint": "Alignment drives better outcomes."
+    },
+    {
+        "wisdom": "Market pull beats product push.",
+        "counterpoint": "Create markets through innovation."
+    },
+    {
+        "wisdom": "User habits form at moments of success.",
+        "counterpoint": "Repetition creates habits."
+    },
+    {
+        "wisdom": "Product quality lives between features.",
+        "counterpoint": "Individual feature quality matters most."
+    },
+    {
+        "wisdom": "Edge cases reveal product principles.",
+        "counterpoint": "Design for the common case."
+    },
+    {
+        "wisdom": "Successful products create their own language.",
+        "counterpoint": "Use established terminology."
+    },
+    {
+        "wisdom": "User confidence compounds interest.",
+        "counterpoint": "Focus on immediate value delivery."
+    },
+    {
+        "wisdom": "Feature fatigue starts with good intentions.",
+        "counterpoint": "More features create more value."
+    },
+    {
+        "wisdom": "UX patterns are trust patterns.",
+        "counterpoint": "Innovate on all interactions."
+    },
+    {
+        "wisdom": "Product insights hide in session gaps.",
+        "counterpoint": "Focus on active usage patterns."
+    },
+    {
+        "wisdom": "Interface decisions are strategy decisions.",
+        "counterpoint": "Separate strategy from implementation."
+    },
+    {
+        "wisdom": "Product love starts with product trust.",
+        "counterpoint": "Delight drives user attachment."
+    },
+    {
+        "wisdom": "Workflow breaks reveal product truth.",
+        "counterpoint": "Focus on successful interactions."
+    },
+    {
+        "wisdom": "Strategic strength comes from saying no.",
+        "counterpoint": "Explore all opportunities."
+    },
+    {
+        "wisdom": "Product evolution follows user sophistication.",
+        "counterpoint": "Drive user behavior through features."
+    },
+    {
+        "wisdom": "Feature complexity grows exponentially.",
+        "counterpoint": "Add features incrementally."
+    },
+    {
+        "wisdom": "User goals transcend product features.",
+        "counterpoint": "Focus on perfecting features."
+    },
+    {
+        "wisdom": "Product stories need both heroes and villains.",
+        "counterpoint": "Focus on positive messaging."
+    },
+    {
+        "wisdom": "Platform value grows with connection density.",
+        "counterpoint": "Focus on individual user value."
+    },
+    {
+        "wisdom": "Innovation happens at the edges of expertise.",
+        "counterpoint": "Deep specialization drives breakthroughs."
+    },
+    {
+        "wisdom": "User behavior follows the path of least regret.",
+        "counterpoint": "Users optimize for efficiency."
+    },
+    {
+        "wisdom": "Product experience is memory design.",
+        "counterpoint": "Focus on immediate interactions."
+    },
+    {
+        "wisdom": "Team velocity is measured in decisions, not features.",
+        "counterpoint": "Feature delivery pace matters most."
+    },
+    {
+        "wisdom": "Product insights come from contrast.",
+        "counterpoint": "Focus on your core experience."
+    },
+    {
+        "wisdom": "User progress beats user activity.",
+        "counterpoint": "Maximize engagement metrics."
+    },
+    {
+        "wisdom": "Product personality shows in transitions.",
+        "counterpoint": "Focus on core functionality."
+    },
+    {
+        "wisdom": "Feature value lives in combinations.",
+        "counterpoint": "Optimize individual features."
+    },
+    {
+        "wisdom": "Product intuition needs both distance and immersion.",
+        "counterpoint": "Stay close to daily product usage."
+    },
+    {
+        "wisdom": "The best features are invisible until needed.",
+        "counterpoint": "Feature discoverability drives adoption."
+    },
+    {
+        "wisdom": "Scale reveals hidden product assumptions.",
+        "counterpoint": "Build for scale from the start."
+    },
+    {
+        "wisdom": "User behavior patterns predict feature success.",
+        "counterpoint": "Innovation creates new behavior patterns."
+    },
+    {
+        "wisdom": "Successful collaboration needs productive conflict.",
+        "counterpoint": "Team harmony drives better outcomes."
+    },
+    {
+        "wisdom": "Innovation frameworks guide, not govern.",
+        "counterpoint": "Follow structured innovation processes."
+    },
+    {
+        "wisdom": "Market position is relative, not absolute.",
+        "counterpoint": "Focus on your product's absolute value."
+    },
+    {
+        "wisdom": "Architecture decisions are user experience decisions.",
+        "counterpoint": "Separate technical and user concerns."
+    },
+    {
+        "wisdom": "Organic growth starts with existing behaviors.",
+        "counterpoint": "Create new user behaviors to drive growth."
+    },
+    {
+        "wisdom": "Feature development is hypothesis testing.",
+        "counterpoint": "Build to clear specifications."
+    },
+    {
+        "wisdom": "Product research needs both depth and velocity.",
+        "counterpoint": "Take time to research thoroughly."
+    },
+    {
+        "wisdom": "Every product decision has a half-life.",
+        "counterpoint": "Make decisions for the long term."
+    },
+    {
+        "wisdom": "Product strategy emerges from constraints.",
+        "counterpoint": "Strategy should drive constraints."
+    },
+    {
+        "wisdom": "Feature requests hide product opportunities.",
+        "counterpoint": "Build what users explicitly request."
+    },
+    {
+        "wisdom": "Product development is expectation arbitrage.",
+        "counterpoint": "Meet user expectations consistently."
+    },
+    {
+        "wisdom": "Team alignment matters more than team size.",
+        "counterpoint": "Resources drive product success."
+    },
+    {
+        "wisdom": "User experience is the sum of user memories.",
+        "counterpoint": "Focus on current interactions."
+    },
+    {
+        "wisdom": "Product insights come from tension points.",
+        "counterpoint": "Focus on positive user experiences."
+    },
+    {
+        "wisdom": "Feature adoption follows adjacent possibilities.",
+        "counterpoint": "Users adopt features based on need."
+    },
+    {
+        "wisdom": "Product decisions compound like interest.",
+        "counterpoint": "Each decision stands alone."
+    },
+    {
+        "wisdom": "User trust builds through micro-interactions.",
+        "counterpoint": "Core features build user trust."
+    },
+    {
+        "wisdom": "Product culture shows in exception handling.",
+        "counterpoint": "Focus on the primary use cases."
+    },
+    {
+        "wisdom": "Innovation needs both chaos and order.",
+        "counterpoint": "Structure drives innovation."
+    },
+    {
+        "wisdom": "User journeys are more spiral than linear.",
+        "counterpoint": "Design clear user paths."
+    },
+    {
+        "wisdom": "Product positioning is deliberate exclusion.",
+        "counterpoint": "Appeal to the widest possible audience."
+    },
+    {
+        "wisdom": "Feature value decays without evolution.",
+        "counterpoint": "Core features retain their value."
+    },
+    {
+        "wisdom": "Product success lives between user goals.",
+        "counterpoint": "Focus on explicit user needs."
+    },
+    {
+        "wisdom": "Team insight comes from shared context.",
+        "counterpoint": "Individual expertise drives decisions."
+    },
+    {
+        "wisdom": "Interface patterns are behavioral contracts.",
+        "counterpoint": "Each interaction needs unique design."
+    },
+    {
+        "wisdom": "Product development is reality negotiation.",
+        "counterpoint": "Follow the product vision strictly."
+    },
+    {
+        "wisdom": "User emotion drives user motion.",
+        "counterpoint": "Focus on functional needs."
+    },
+    {
+        "wisdom": "Product quality is perceived at boundaries.",
+        "counterpoint": "Focus on core feature quality."
+    },
+    {
+        "wisdom": "Feature complexity hides in combinations.",
+        "counterpoint": "Manage individual feature complexity."
+    },
+    {
+        "wisdom": "Product intuition grows from pattern recognition.",
+        "counterpoint": "Trust data over patterns."
+    },
+    {
+        "wisdom": "Strategy is choosing your regrets in advance.",
+        "counterpoint": "Regret is a poor guide when the future is unknowable."
+    },
+    {
+        "wisdom": "A roadmap without a 'why' is just a to-do list.",
+        "counterpoint": "Sometimes 'because it's needed' is reason enough."
+    },
+    {
+        "wisdom": "The best decisions are made with 70% of the information.",
+        "counterpoint": "Waiting for 90% prevents avoidable mistakes."
+    },
+    {
+        "wisdom": "Trade-offs you name out loud are trade-offs you control.",
+        "counterpoint": "Some trade-offs are better left unspoken until necessary."
+    },
+    {
+        "wisdom": "Every roadmap is a hypothesis wearing a suit.",
+        "counterpoint": "Commitments need to look like commitments to build trust."
+    },
+    {
+        "wisdom": "Optionality is a strategy, not an excuse.",
+        "counterpoint": "Too many open doors is its own kind of paralysis."
+    },
+    {
+        "wisdom": "The plan is disposable; the reasoning behind it isn't.",
+        "counterpoint": "Without a stable plan, teams can't build momentum."
+    },
+    {
+        "wisdom": "Strategy dies the moment nobody can repeat it from memory.",
+        "counterpoint": "Complex problems sometimes need complex strategies."
+    },
+    {
+        "wisdom": "Saying yes to everything is how you say no to excellence.",
+        "counterpoint": "Selective focus can mean missing genuine opportunities."
+    },
+    {
+        "wisdom": "A good strategy makes some smart people angry.",
+        "counterpoint": "Consensus-building prevents costly internal conflict."
+    },
+    {
+        "wisdom": "Sequencing is strategy in disguise.",
+        "counterpoint": "What you build matters more than the order you build it."
+    },
+    {
+        "wisdom": "The competitor that matters most is the status quo.",
+        "counterpoint": "Ignoring direct competitors is how you get blindsided."
+    },
+    {
+        "wisdom": "Ambiguity is where the biggest opportunities hide.",
+        "counterpoint": "Clarity is what lets teams actually execute."
+    },
+    {
+        "wisdom": "A strategy you can't explain to a stranger isn't a strategy.",
+        "counterpoint": "Some strategic advantage depends on not being obvious."
+    },
+    {
+        "wisdom": "Long-term thinking is just short-term thinking, repeated honestly.",
+        "counterpoint": "Long-term vision sometimes requires ignoring short-term signals."
+    },
+    {
+        "wisdom": "Constraints are strategy's best editor.",
+        "counterpoint": "Unlimited resources reveal what's truly possible."
+    },
+    {
+        "wisdom": "The cost of a decision is what you didn't choose.",
+        "counterpoint": "Overweighting opportunity cost leads to indecision."
+    },
+    {
+        "wisdom": "Bet sizing matters more than bet picking.",
+        "counterpoint": "A great bet poorly sized is still a great bet."
+    },
+    {
+        "wisdom": "Strategy is remembered in what got cut.",
+        "counterpoint": "What got built is what users actually experience."
+    },
+    {
+        "wisdom": "The org chart is a lagging indicator of the real strategy.",
+        "counterpoint": "Structure shapes strategy as much as it follows it."
+    },
+    {
+        "wisdom": "A good strategy fits on an index card.",
+        "counterpoint": "Nuanced markets need nuanced strategies."
+    },
+    {
+        "wisdom": "Momentum is a strategy multiplier.",
+        "counterpoint": "Momentum can carry a bad direction just as fast as a good one."
+    },
+    {
+        "wisdom": "The riskiest plan is the one nobody questions.",
+        "counterpoint": "Constant questioning erodes a team's confidence to act."
+    },
+    {
+        "wisdom": "Positioning is remembered, features are forgotten.",
+        "counterpoint": "Positioning without substance is just marketing."
+    },
+    {
+        "wisdom": "The strategy is the sentence after 'so that we can...'",
+        "counterpoint": "Sometimes the tactic is the whole point."
+    },
+    {
+        "wisdom": "Great interfaces hide decisions, not information.",
+        "counterpoint": "Hidden decisions erode a user's sense of control."
+    },
+    {
+        "wisdom": "Whitespace is a feature.",
+        "counterpoint": "Density signals capability to power users."
+    },
+    {
+        "wisdom": "A design system is a promise you have to keep.",
+        "counterpoint": "Rigid systems slow down genuinely novel problems."
+    },
+    {
+        "wisdom": "Consistency is kindness to the user's memory.",
+        "counterpoint": "Novelty is what makes a product memorable."
+    },
+    {
+        "wisdom": "The interface is the argument for how the product should be used.",
+        "counterpoint": "Users will use a product however solves their problem."
+    },
+    {
+        "wisdom": "Good typography is invisible until it's wrong.",
+        "counterpoint": "Distinctive type is part of a brand's voice."
+    },
+    {
+        "wisdom": "Friction isn't the enemy \u2014 pointless friction is.",
+        "counterpoint": "All friction costs conversion, useful or not."
+    },
+    {
+        "wisdom": "A design critique that only compliments has failed.",
+        "counterpoint": "Encouragement builds the confidence good work needs."
+    },
+    {
+        "wisdom": "The grid is a conversation, not a cage.",
+        "counterpoint": "Breaking the grid without reason breaks trust."
+    },
+    {
+        "wisdom": "Motion should explain, not decorate.",
+        "counterpoint": "Delight is its own justification."
+    },
+    {
+        "wisdom": "A wireframe that survives contact with real content was never really tested.",
+        "counterpoint": "Wireframes exist precisely to test structure before content."
+    },
+    {
+        "wisdom": "Accessibility constraints produce better design for everyone.",
+        "counterpoint": "Edge-case accommodation can dilute the core experience."
+    },
+    {
+        "wisdom": "The best icons need no label, until they do.",
+        "counterpoint": "Labels remove all ambiguity for a small cost."
+    },
+    {
+        "wisdom": "Design debt compounds quieter than technical debt.",
+        "counterpoint": "Users notice broken flows before inconsistent spacing."
+    },
+    {
+        "wisdom": "Color is a hierarchy tool before it's a mood tool.",
+        "counterpoint": "Mood is what makes users feel something."
+    },
+    {
+        "wisdom": "A style guide without rationale is just a rulebook.",
+        "counterpoint": "Rules are faster to follow than reasoning."
+    },
+    {
+        "wisdom": "The empty state is where trust is built or lost.",
+        "counterpoint": "Users judge a product by its best moments, not its worst."
+    },
+    {
+        "wisdom": "Copy is a UI element with the highest information density.",
+        "counterpoint": "Icons communicate faster across languages and glances."
+    },
+    {
+        "wisdom": "Great design is mostly deciding what to leave alone.",
+        "counterpoint": "Refinement is a discipline, not a default of restraint."
+    },
+    {
+        "wisdom": "Skeuomorphism taught users what flat design assumes they already know.",
+        "counterpoint": "Flat design scales further than literal metaphors."
+    },
+    {
+        "wisdom": "The best design systems document intent, not just tokens.",
+        "counterpoint": "Tokens are what actually get implemented consistently."
+    },
+    {
+        "wisdom": "A prototype should feel real enough to lie to you.",
+        "counterpoint": "Overly polished prototypes invite premature approval."
+    },
+    {
+        "wisdom": "Dark patterns are just short-term thinking with good conversion numbers.",
+        "counterpoint": "Some friction genuinely protects users from themselves."
+    },
+    {
+        "wisdom": "The canvas is never really blank \u2014 constraints already live there.",
+        "counterpoint": "Total freedom is what produces the most original work."
+    },
+    {
+        "wisdom": "Ideas are cheap; combinations are the craft.",
+        "counterpoint": "A single powerful idea beats ten mediocre combinations."
+    },
+    {
+        "wisdom": "Constraints don't limit creativity, they aim it.",
+        "counterpoint": "Some breakthroughs only happen with no constraints at all."
+    },
+    {
+        "wisdom": "The first idea is a warm-up, not a draft.",
+        "counterpoint": "First instincts are often the truest signal."
+    },
+    {
+        "wisdom": "Boredom is where the next idea is hiding.",
+        "counterpoint": "Deliberate stimulation generates ideas faster than idle waiting."
+    },
+    {
+        "wisdom": "Steal the structure, not the content.",
+        "counterpoint": "Original structures are what create original work."
+    },
+    {
+        "wisdom": "A good brainstorm has more bad ideas than good ones, on purpose.",
+        "counterpoint": "Quality filtering upfront saves everyone's time."
+    },
+    {
+        "wisdom": "Creativity is memory rearranged under new pressure.",
+        "counterpoint": "True creativity produces things memory alone couldn't predict."
+    },
+    {
+        "wisdom": "Constraints borrowed from other fields unlock your own.",
+        "counterpoint": "Domain expertise is what actually produces breakthroughs."
+    },
+    {
+        "wisdom": "The edit is where the idea becomes the work.",
+        "counterpoint": "Over-editing kills the spark that made the idea worth having."
+    },
+    {
+        "wisdom": "Play is research with better morale.",
+        "counterpoint": "Structured research finds what play misses."
+    },
+    {
+        "wisdom": "A metaphor is a shortcut for an explanation you haven't earned yet.",
+        "counterpoint": "Direct explanation avoids the risk of a misleading metaphor."
+    },
+    {
+        "wisdom": "Divergent thinking needs a deadline to become convergent.",
+        "counterpoint": "Deadlines are what kill the best divergent ideas early."
+    },
+    {
+        "wisdom": "Inspiration is what happens after you start, not before.",
+        "counterpoint": "Waiting for inspiration produces more honest work."
+    },
+    {
+        "wisdom": "The weirdest idea in the room is usually the most honest one.",
+        "counterpoint": "Weird ideas often just reflect weird incentives, not insight."
+    },
+    {
+        "wisdom": "Every craft improves fastest at its edges, not its center.",
+        "counterpoint": "Mastering the fundamentals is what makes the edges usable."
+    },
+    {
+        "wisdom": "Reframing the question is worth more than answering it faster.",
+        "counterpoint": "Sometimes the original question was already the right one."
+    },
+    {
+        "wisdom": "Two unrelated fields collide to make a third.",
+        "counterpoint": "Depth in one field outperforms breadth across many."
+    },
+    {
+        "wisdom": "Constraints reveal taste; freedom reveals habits.",
+        "counterpoint": "Freedom is what lets taste develop in the first place."
+    },
+    {
+        "wisdom": "The problem well-stated is already half-designed.",
+        "counterpoint": "Some problems only reveal their shape through prototyping."
+    },
+    {
+        "wisdom": "Lateral thinking starts by assuming the obvious answer is wrong.",
+        "counterpoint": "The obvious answer is obvious because it's usually right."
+    },
+    {
+        "wisdom": "Ask what would make the problem worse \u2014 the answer is often the solution, inverted.",
+        "counterpoint": "Inversion is a trick, not a method; it only works sometimes."
+    },
+    {
+        "wisdom": "The frame you choose decides the answers you can find.",
+        "counterpoint": "Some answers are frame-independent \u2014 they're just true."
+    },
+    {
+        "wisdom": "A good question survives being answered wrong three times.",
+        "counterpoint": "A good question should be answerable, not endlessly reframed."
+    },
+    {
+        "wisdom": "Solve the adjacent problem and the original one gets easier.",
+        "counterpoint": "Solving adjacent problems can be an elegant form of procrastination."
+    },
+    {
+        "wisdom": "Every constraint has a loophole disguised as a rule.",
+        "counterpoint": "Respecting constraints as given produces more robust solutions."
+    },
+    {
+        "wisdom": "The obstacle contains information the goal doesn't.",
+        "counterpoint": "Fixating on obstacles distracts from the goal itself."
+    },
+    {
+        "wisdom": "Change the unit of analysis and the problem changes shape.",
+        "counterpoint": "Consistent units of analysis are what make solutions comparable."
+    },
+    {
+        "wisdom": "If the problem seems impossible, you probably solved the wrong one.",
+        "counterpoint": "Some problems are genuinely, provably hard."
+    },
+    {
+        "wisdom": "Borrow the solution before you borrow the problem.",
+        "counterpoint": "Solutions without matching problems create false urgency."
+    },
+    {
+        "wisdom": "The fastest way through a maze is to walk it backward.",
+        "counterpoint": "Forward progress builds the intuition backward-solving skips."
+    },
+    {
+        "wisdom": "A paradox is just two truths that haven't met their context yet.",
+        "counterpoint": "Some paradoxes are genuine contradictions, not framing issues."
+    },
+    {
+        "wisdom": "The question 'what else could this mean' unlocks more than 'what does this mean'.",
+        "counterpoint": "Overinterpretation invents meaning that was never there."
+    },
+    {
+        "wisdom": "Every rule was once someone's clever workaround.",
+        "counterpoint": "Rules exist because workarounds eventually break something."
+    },
+    {
+        "wisdom": "Zoom out until the problem becomes a shape, not a story.",
+        "counterpoint": "Zooming out loses the human detail that made it a real problem."
+    },
+    {
+        "wisdom": "The best reframes make the old question look small.",
+        "counterpoint": "Some questions are exactly the right size already."
+    },
+    {
+        "wisdom": "Trust is built in milliseconds and spent in installments.",
+        "counterpoint": "Trust built quickly is often trust built shallowly."
+    },
+    {
+        "wisdom": "A leader's calendar is their actual strategy.",
+        "counterpoint": "Strategy lives in decisions, not in scheduled time."
+    },
+    {
+        "wisdom": "Psychological safety is a prerequisite for speed, not a luxury.",
+        "counterpoint": "Some urgency requires speed before safety can be established."
+    },
+    {
+        "wisdom": "The team that argues well ships better than the team that agrees fast.",
+        "counterpoint": "Constant argument exhausts a team's capacity to execute."
+    },
+    {
+        "wisdom": "Delegation is a bet on someone else's judgment, not just their time.",
+        "counterpoint": "Delegating judgment without oversight invites costly mistakes."
+    },
+    {
+        "wisdom": "A leader's silence is read as a decision.",
+        "counterpoint": "Not every silence needs to be filled with an opinion."
+    },
+    {
+        "wisdom": "Culture is what happens when the leader isn't in the room.",
+        "counterpoint": "Culture is set explicitly, in the room, on purpose."
+    },
+    {
+        "wisdom": "The best 1:1s are about the person, not the project.",
+        "counterpoint": "Project clarity is often what people actually need from a 1:1."
+    },
+    {
+        "wisdom": "Praise in public, correct in private, but explain both in context.",
+        "counterpoint": "Public correction, done kindly, teaches the whole team at once."
+    },
+    {
+        "wisdom": "A team without friction is a team without a real opinion.",
+        "counterpoint": "Friction-free teams move faster and burn out less."
+    },
+    {
+        "wisdom": "Hiring for potential is hiring for patience.",
+        "counterpoint": "Hiring for proven skill reduces ramp-up risk."
+    },
+    {
+        "wisdom": "The org chart tells you who's accountable; the Slack thread tells you who's trusted.",
+        "counterpoint": "Informal trust without formal accountability creates confusion."
+    },
+    {
+        "wisdom": "A leader's job is to make good decisions easy and bad decisions hard.",
+        "counterpoint": "Sometimes a leader's job is simply to make the decision."
+    },
+    {
+        "wisdom": "Burnout is a leading indicator of a missing 'why'.",
+        "counterpoint": "Burnout is often just a workload problem, not a meaning problem."
+    },
+    {
+        "wisdom": "The team remembers how a hard call was made more than what was decided.",
+        "counterpoint": "The outcome of a hard call is what actually matters long-term."
+    },
+    {
+        "wisdom": "Autonomy without context is just abandonment with better branding.",
+        "counterpoint": "Too much context can turn autonomy into micromanagement."
+    },
+    {
+        "wisdom": "A meeting that could be a decision log wasn't a meeting worth having.",
+        "counterpoint": "Some decisions need a room, not a document, to land properly."
+    },
+    {
+        "wisdom": "The best managers make themselves gradually unnecessary.",
+        "counterpoint": "Consistent involvement is what keeps standards high."
+    },
+    {
+        "wisdom": "Feedback withheld is a decision made on someone else's behalf.",
+        "counterpoint": "Not all feedback is ready to be useful yet."
+    },
+    {
+        "wisdom": "Recognition ages faster than the achievement it's for.",
+        "counterpoint": "Delayed recognition, done thoughtfully, means more."
+    },
+    {
+        "wisdom": "A team's velocity is capped by its slowest trust relationship.",
+        "counterpoint": "Process can compensate for trust that hasn't fully formed yet."
+    },
+    {
+        "wisdom": "Users don't experience your org chart, but they always feel it.",
+        "counterpoint": "Internal structure is invisible if the product interface is good enough."
+    },
+    {
+        "wisdom": "You don't find the user's need, you excavate it.",
+        "counterpoint": "Sometimes users state their need plainly and it should be taken at face value."
+    },
+    {
+        "wisdom": "A user's workaround is a spec you didn't write.",
+        "counterpoint": "Workarounds are often just habit, not a hidden requirement."
+    },
+    {
+        "wisdom": "The support queue is a focus group that never stops running.",
+        "counterpoint": "Support tickets skew toward the most frustrated, not the most typical, users."
+    },
+    {
+        "wisdom": "Watch what users ignore as closely as what they click.",
+        "counterpoint": "Ignored elements might just be genuinely unnecessary, not misunderstood."
+    },
+    {
+        "wisdom": "Users forgive slow, they don't forgive confusing.",
+        "counterpoint": "Speed is the first thing users notice, confusion the second."
+    },
+    {
+        "wisdom": "The user you're building for today is not the user you started with.",
+        "counterpoint": "Consistency for early users is what earns long-term loyalty."
+    },
+    {
+        "wisdom": "A user interview answers the question you asked, not the one that matters.",
+        "counterpoint": "Well-designed interviews get past surface answers reliably."
+    },
+    {
+        "wisdom": "Empathy maps expire faster than personas.",
+        "counterpoint": "Personas ossify faster because nobody revisits them."
+    },
+    {
+        "wisdom": "The loudest users are rarely the most representative ones.",
+        "counterpoint": "Loud users are often the most engaged, and engagement matters."
+    },
+    {
+        "wisdom": "Users don't want fewer choices, they want the right one made easy.",
+        "counterpoint": "Fewer choices genuinely reduce cognitive load, regardless of framing."
+    },
+    {
+        "wisdom": "A churned user leaves clues before they leave for good.",
+        "counterpoint": "Some churn is unpredictable, driven by factors outside the product."
+    },
+    {
+        "wisdom": "The user's first five minutes decide the next five months.",
+        "counterpoint": "Long-term value is what actually drives retention, not first impressions."
+    },
+    {
+        "wisdom": "Watching someone struggle silently teaches more than any survey.",
+        "counterpoint": "Surveys scale in ways observation never can."
+    },
+    {
+        "wisdom": "Segment by behavior, not by demographic \u2014 demographics don't use your product, people do.",
+        "counterpoint": "Demographics still predict behavior well enough to be useful."
+    },
+    {
+        "wisdom": "The user's mental model is the real interface; yours is just a rendering of it.",
+        "counterpoint": "Sometimes the interface needs to teach a better mental model than the user's own."
+    },
+    {
+        "wisdom": "A single unresolved complaint is a thousand unspoken ones.",
+        "counterpoint": "Squeaky-wheel complaints don't scale to represent silent majorities."
+    },
+    {
+        "wisdom": "Shipping is a decision, not an event.",
+        "counterpoint": "Shipping should feel like an event \u2014 it's how teams mark progress."
+    },
+    {
+        "wisdom": "Done is a moving target until you name what 'done' means.",
+        "counterpoint": "Overdefining 'done' slows teams down chasing perfect definitions."
+    },
+    {
+        "wisdom": "The last 10% takes 90% of the trust, not 90% of the time.",
+        "counterpoint": "The last 10% genuinely takes the most engineering time, not just trust."
+    },
+    {
+        "wisdom": "A deadline is a forcing function for decisions, not for quality.",
+        "counterpoint": "Deadlines without quality pressure produce shippable but forgettable work."
+    },
+    {
+        "wisdom": "Momentum is the only renewable resource on a team.",
+        "counterpoint": "Momentum without direction just burns a team out faster."
+    },
+    {
+        "wisdom": "Ship the smallest thing that teaches you something true.",
+        "counterpoint": "Small ships sometimes teach nothing because they're too small to matter."
+    },
+    {
+        "wisdom": "Execution is strategy's only honest feedback loop.",
+        "counterpoint": "Execution failures can hide a perfectly good strategy behind bad delivery."
+    },
+    {
+        "wisdom": "A blocked task is a decision waiting to be made, not a status.",
+        "counterpoint": "Some blockers are genuinely external and have no decision to unlock them."
+    },
+    {
+        "wisdom": "The team that ships weekly thinks in weeks; the team that ships quarterly thinks in quarters.",
+        "counterpoint": "Cadence should match the size of the problem, not the other way around."
+    },
+    {
+        "wisdom": "Perfect is a synonym for 'not shipped yet'.",
+        "counterpoint": "Some things genuinely need to be right before they're released."
+    },
+    {
+        "wisdom": "A rollback plan is a permission slip to move faster.",
+        "counterpoint": "Planning for failure can quietly lower the bar for success."
+    },
+    {
+        "wisdom": "The fastest team is the one with the fewest handoffs, not the most people.",
+        "counterpoint": "More people, well-coordinated, still outpaces a small team on scope."
+    },
+    {
+        "wisdom": "Scope creep is just unspoken ambition with no owner.",
+        "counterpoint": "Some scope genuinely needs to grow as understanding improves."
+    },
+    {
+        "wisdom": "A postmortem without a name attached to the fix is just a story.",
+        "counterpoint": "Blameless postmortems produce more honest accounts of what happened."
+    },
+    {
+        "wisdom": "Shipping fixes momentum; polishing fixes memory.",
+        "counterpoint": "Momentum without polish creates a reputation that's hard to reverse."
+    },
+    {
+        "wisdom": "The backlog is a graveyard for decisions nobody wanted to make.",
+        "counterpoint": "A backlog is exactly where undecided things should safely wait."
+    },
+    {
+        "wisdom": "A dashboard answers questions; a good metric asks new ones.",
+        "counterpoint": "Dashboards exist to give answers quickly, not provoke more questions."
+    },
+    {
+        "wisdom": "Correlation is a hypothesis wearing a chart.",
+        "counterpoint": "Strong correlation is often good enough to act on without more proof."
+    },
+    {
+        "wisdom": "The metric you optimize becomes the product you build.",
+        "counterpoint": "A clear metric focuses a team more than it distorts them."
+    },
+    {
+        "wisdom": "Every vanity metric was once someone's honest proxy.",
+        "counterpoint": "Some metrics are vanity from the start and were never honest proxies."
+    },
+    {
+        "wisdom": "A number without a story is a rumor with decimal points.",
+        "counterpoint": "Numbers are trusted precisely because they don't need a story."
+    },
+    {
+        "wisdom": "The average hides the two products you're actually building.",
+        "counterpoint": "Averages are still the fastest way to spot a trend."
+    },
+    {
+        "wisdom": "Statistical significance isn't the same as significance.",
+        "counterpoint": "Without statistical rigor, 'significance' is just an opinion."
+    },
+    {
+        "wisdom": "A/B tests measure preference, not understanding.",
+        "counterpoint": "Preference is exactly what a business needs to measure to grow."
+    },
+    {
+        "wisdom": "The metric that's easy to game is the metric that will be gamed.",
+        "counterpoint": "Gameable metrics can still be directionally useful if watched closely."
+    },
+    {
+        "wisdom": "Data tells you what happened; judgment tells you if it matters.",
+        "counterpoint": "Judgment without data is just a well-dressed guess."
+    },
+    {
+        "wisdom": "Outliers are where the next feature is hiding.",
+        "counterpoint": "Outliers are usually noise, not signal, and should be filtered out."
+    },
+    {
+        "wisdom": "A leading indicator is a promise; a lagging indicator is a receipt.",
+        "counterpoint": "Receipts are trustworthy precisely because they've already happened."
+    },
+    {
+        "wisdom": "The dashboard nobody checks is the truest measure of what the team doesn't trust.",
+        "counterpoint": "Dashboards go unchecked simply because they're not part of the workflow."
+    },
+    {
+        "wisdom": "Sample size is a confidence multiplier, not a truth generator.",
+        "counterpoint": "Large enough samples are as close to truth as data ever gets."
+    },
+    {
+        "wisdom": "Cohorts age; snapshots lie about how.",
+        "counterpoint": "Snapshots are all you have when you need an answer today."
+    },
+    {
+        "wisdom": "A funnel measures where users left, not why they came.",
+        "counterpoint": "Funnels are still the clearest map of where friction lives."
+    },
+    {
+        "wisdom": "Your career is a portfolio, not a ladder.",
+        "counterpoint": "Ladders provide structure that portfolios lack."
+    },
+    {
+        "wisdom": "The skill that got you here rarely gets you further.",
+        "counterpoint": "Core skills compound and stay valuable across levels."
+    },
+    {
+        "wisdom": "Ask for the feedback you're afraid to hear.",
+        "counterpoint": "Some feedback isn't worth the anxiety of asking for it before you're ready."
+    },
+    {
+        "wisdom": "A mentor tells you what worked for them; a sponsor makes things work for you.",
+        "counterpoint": "Advice from a mentor is often more durable than a sponsor's influence."
+    },
+    {
+        "wisdom": "Your reputation is built in the rooms you're not in.",
+        "counterpoint": "Reputation is mostly built by the work people can actually see."
+    },
+    {
+        "wisdom": "Specialize to get hired, generalize to get promoted.",
+        "counterpoint": "Deep specialists get promoted precisely for their irreplaceable depth."
+    },
+    {
+        "wisdom": "The best career move sometimes looks like a step sideways.",
+        "counterpoint": "Sideways moves can just be avoidance dressed as strategy."
+    },
+    {
+        "wisdom": "Confidence is a skill you rehearse, not a trait you're issued.",
+        "counterpoint": "Some people are naturally more confident, and that's a real advantage."
+    },
+    {
+        "wisdom": "Your title describes your past work; your network predicts your next.",
+        "counterpoint": "Titles still open doors that networks alone can't."
+    },
+    {
+        "wisdom": "Impostor syndrome is evidence you're paying attention to the gap.",
+        "counterpoint": "Impostor syndrome can also just be inaccurate self-perception."
+    },
+    {
+        "wisdom": "The work that scares you a little is usually the work worth doing.",
+        "counterpoint": "Fear is sometimes just good instinct telling you to avoid a bad bet."
+    },
+    {
+        "wisdom": "A career plan is a compass, and compasses don't do well as contracts.",
+        "counterpoint": "Firm plans give you something concrete to measure progress against."
+    },
+    {
+        "wisdom": "You're not behind, you're on a schedule nobody else is running.",
+        "counterpoint": "Comparisons exist because timing genuinely matters in some fields."
+    },
+    {
+        "wisdom": "Saying no to a good opportunity protects the great one you haven't seen yet.",
+        "counterpoint": "Good opportunities compound; waiting for great ones can mean waiting forever."
+    },
+    {
+        "wisdom": "Your resume is the summary; your Slack history is the transcript.",
+        "counterpoint": "A polished summary is what most people will ever actually read."
+    },
+    {
+        "wisdom": "Craft is what remains after the deadline is forgotten.",
+        "counterpoint": "Deadlines are the only reason most craft ever ships at all."
+    },
+    {
+        "wisdom": "The best question in a job interview is the one about what failed.",
+        "counterpoint": "Success stories reveal more about fit than failure stories do."
+    },
+    {
+        "wisdom": "Every expert was once a beginner who kept showing up after it stopped being fun.",
+        "counterpoint": "Some expertise comes from talent showing up before the effort does."
+    },
+    {
+        "wisdom": "A story with tension is a story people remember.",
+        "counterpoint": "Clarity without tension is what people actually act on."
+    },
+    {
+        "wisdom": "Say the headline first; the details are optional, the headline isn't.",
+        "counterpoint": "Context before conclusion prevents the headline from being misread."
+    },
+    {
+        "wisdom": "The best pitch answers 'so what' before anyone has to ask.",
+        "counterpoint": "A pitch that answers everything upfront leaves no room for dialogue."
+    },
+    {
+        "wisdom": "Jargon is a wall dressed up as a shortcut.",
+        "counterpoint": "Shared jargon speeds up communication between experts."
+    },
+    {
+        "wisdom": "A good analogy borrows trust from something the audience already believes.",
+        "counterpoint": "Analogies can quietly smuggle in false equivalence."
+    },
+    {
+        "wisdom": "Silence in a presentation is a punctuation mark, not a mistake.",
+        "counterpoint": "Silence reads as uncertainty to most audiences."
+    },
+    {
+        "wisdom": "The email you almost didn't send was probably the honest one.",
+        "counterpoint": "Second-guessing a message is often exactly the right instinct."
+    },
+    {
+        "wisdom": "People remember how a story made them feel long after they forget the facts in it.",
+        "counterpoint": "Facts are what people act on when the feeling fades."
+    },
+    {
+        "wisdom": "A good update tells people what changed, not what happened.",
+        "counterpoint": "What happened is the context that makes the change believable."
+    },
+    {
+        "wisdom": "Ask questions like a curious stranger, not a cross-examiner.",
+        "counterpoint": "Direct, pointed questions get to the truth faster."
+    },
+    {
+        "wisdom": "The best status reports read like a story with a clear next chapter.",
+        "counterpoint": "Status reports exist to inform, not entertain."
+    },
+    {
+        "wisdom": "Repetition isn't redundancy, it's how a message survives a distracted audience.",
+        "counterpoint": "Repeating a message too often makes people stop listening."
+    },
+    {
+        "wisdom": "The room remembers the first slide and the last, rarely the middle.",
+        "counterpoint": "The middle is where the actual argument lives, and it deserves attention."
+    },
+    {
+        "wisdom": "A good brief creates constraints; a bad brief creates confusion.",
+        "counterpoint": "Loose briefs leave room for the best unexpected solutions."
+    },
+    {
+        "wisdom": "Talking less in a meeting is sometimes the most persuasive move you can make.",
+        "counterpoint": "Silence in a meeting can just look like you have nothing to add."
+    },
+    {
+        "wisdom": "The system optimizes for what you measure, not what you meant.",
+        "counterpoint": "Well-designed measurement captures intent closely enough to matter."
+    },
+    {
+        "wisdom": "Every system has a bottleneck; moving it doesn't remove it.",
+        "counterpoint": "Moving a bottleneck to a cheaper point in the system is still progress."
+    },
+    {
+        "wisdom": "Local optimization is how you build a system nobody can improve globally.",
+        "counterpoint": "Local wins are the only ones a team can actually control."
+    },
+    {
+        "wisdom": "Feedback loops are a system's memory.",
+        "counterpoint": "Some systems function fine without any memory at all."
+    },
+    {
+        "wisdom": "The org is a system, and systems resist being redesigned by the people inside them.",
+        "counterpoint": "People inside a system have the clearest view of what needs to change."
+    },
+    {
+        "wisdom": "A system under stress reveals its real priorities, not its stated ones.",
+        "counterpoint": "Stated priorities still guide the system when stress is low."
+    },
+    {
+        "wisdom": "Complexity hides where two systems meet.",
+        "counterpoint": "Complexity usually lives at the core, not the edges."
+    },
+    {
+        "wisdom": "You can't push a system faster than its slowest feedback loop allows.",
+        "counterpoint": "Parallelizing work can outrun a slow feedback loop entirely."
+    },
+    {
+        "wisdom": "A resilient system fails small, often, and visibly.",
+        "counterpoint": "Resilient systems fail rarely, which is the whole point of resilience."
+    },
+    {
+        "wisdom": "Every workaround becomes tomorrow's undocumented dependency.",
+        "counterpoint": "Workarounds are how systems adapt faster than formal redesign allows."
+    },
+    {
+        "wisdom": "Second-order effects are where most systems actually break.",
+        "counterpoint": "First-order effects are what most teams can actually predict and manage."
+    },
+    {
+        "wisdom": "The map of the system and the system itself diverge the moment you stop updating the map.",
+        "counterpoint": "An imperfect map is still more useful than no map at all."
+    },
+    {
+        "wisdom": "A system designed for one scale breaks predictably at ten times that scale.",
+        "counterpoint": "Designing for ten times the scale too early wastes effort the system may never need."
+    },
+    {
+        "wisdom": "Incentives are the real architecture; org charts are just the blueprint nobody follows.",
+        "counterpoint": "Org charts still determine who has the authority to change incentives."
+    },
+    {
+        "wisdom": "The system remembers what the team forgets.",
+        "counterpoint": "Systems only remember what someone bothered to encode."
+    },
+    {
+        "wisdom": "Negotiation starts with understanding what the other side can't say out loud.",
+        "counterpoint": "Taking positions at face value is usually faster and just as effective."
+    },
+    {
+        "wisdom": "The first offer sets the frame, even when it gets rejected.",
+        "counterpoint": "A rejected first offer can just make the rest of the negotiation harder."
+    },
+    {
+        "wisdom": "Walking away is a position, not a failure.",
+        "counterpoint": "Walking away can close doors that patience would have kept open."
+    },
+    {
+        "wisdom": "People negotiate positions, but they decide based on needs.",
+        "counterpoint": "Stated positions are often the clearest signal of someone's actual needs."
+    },
+    {
+        "wisdom": "The best deals leave both sides slightly uncomfortable.",
+        "counterpoint": "The best deals leave both sides clearly satisfied, not uneasy."
+    },
+    {
+        "wisdom": "Silence is a negotiating tactic that costs nothing and reveals everything.",
+        "counterpoint": "Silence can just as easily be read as disengagement."
+    },
+    {
+        "wisdom": "Anchor high, but anchor believably.",
+        "counterpoint": "A believable anchor is often just a weak anchor in disguise."
+    },
+    {
+        "wisdom": "You win a negotiation the moment you understand what the other side is actually optimizing for.",
+        "counterpoint": "Understanding someone's goals doesn't guarantee you can meet them."
+    },
+    {
+        "wisdom": "Every 'no' in a negotiation is a 'not yet' wearing a disguise.",
+        "counterpoint": "Some 'no's are final, and treating them otherwise wastes everyone's time."
+    },
+    {
+        "wisdom": "Trust is the discount rate on every future negotiation.",
+        "counterpoint": "Leverage matters more than trust when the stakes are high enough."
+    },
+    {
+        "wisdom": "The learner who asks 'why' outpaces the learner who asks 'how'.",
+        "counterpoint": "Knowing 'how' gets you working results while 'why' is still being debated."
+    },
+    {
+        "wisdom": "Forgetting is a feature of learning, not a bug.",
+        "counterpoint": "Retention is what actually separates learning from mere exposure."
+    },
+    {
+        "wisdom": "You don't understand something until you can explain it badly and still be understood.",
+        "counterpoint": "Precision in explanation is what proves real understanding."
+    },
+    {
+        "wisdom": "The fastest way to learn a system is to break it on purpose.",
+        "counterpoint": "Breaking things deliberately can cost more than careful study would."
+    },
+    {
+        "wisdom": "Curiosity compounds faster than knowledge does.",
+        "counterpoint": "Knowledge is what actually gets applied; curiosity alone produces nothing."
+    },
+    {
+        "wisdom": "A beginner's question often exposes what experts stopped questioning.",
+        "counterpoint": "Expert intuition exists precisely because some questions are already settled."
+    },
+    {
+        "wisdom": "You learn a skill by doing it badly, repeatedly, in public.",
+        "counterpoint": "Private practice avoids the reputational cost of visible failure."
+    },
+    {
+        "wisdom": "The best way to remember something is to need it again soon.",
+        "counterpoint": "Spaced repetition works even without an immediate need."
+    },
+    {
+        "wisdom": "Unlearning old habits takes longer than learning new skills.",
+        "counterpoint": "New skills often replace old habits automatically, without extra effort."
+    },
+    {
+        "wisdom": "Teaching a thing is the final exam for actually knowing it.",
+        "counterpoint": "Some people know a thing deeply but teach it poorly."
+    },
+    {
+        "wisdom": "Risk isn't the chance of loss, it's the size of the surprise.",
+        "counterpoint": "Risk is fundamentally about probability, not just magnitude of surprise."
+    },
+    {
+        "wisdom": "The safest-looking option is often the riskiest one, deferred.",
+        "counterpoint": "Deferred risk is still less risk today, and today matters."
+    },
+    {
+        "wisdom": "Diversify your bets, not your attention.",
+        "counterpoint": "Diversified attention is what catches risks a single focus would miss."
+    },
+    {
+        "wisdom": "A reversible decision made fast beats an irreversible one made slow.",
+        "counterpoint": "Irreversible decisions deserve the extra time, precisely because they can't be undone."
+    },
+    {
+        "wisdom": "The biggest risk is mistaking inaction for safety.",
+        "counterpoint": "Inaction genuinely is the safer choice more often than ambition admits."
+    },
+    {
+        "wisdom": "Hedge your bets, not your convictions.",
+        "counterpoint": "Strong convictions without hedges are how real breakthroughs get funded."
+    },
+    {
+        "wisdom": "Risk tolerance is a team property, not just an individual one.",
+        "counterpoint": "Individual risk tolerance still determines who actually pulls the trigger."
+    },
+    {
+        "wisdom": "The insurance you never use was still worth buying.",
+        "counterpoint": "Unused insurance is a cost that's easy to justify only in hindsight."
+    },
+    {
+        "wisdom": "Focus is a series of small, repeated no's.",
+        "counterpoint": "Focus sometimes requires one big yes more than many small no's."
+    },
+    {
+        "wisdom": "The thing you protect from interruption is the thing you actually value.",
+        "counterpoint": "Some things are valuable precisely because they welcome interruption."
+    },
+    {
+        "wisdom": "Multitasking is just single-tasking with worse quality control.",
+        "counterpoint": "Some tasks are shallow enough to run in parallel without real cost."
+    },
+    {
+        "wisdom": "Depth requires boredom's permission.",
+        "counterpoint": "Stimulation, not boredom, is what sparks the deepest insights."
+    },
+    {
+        "wisdom": "Your calendar is a values statement written in thirty-minute blocks.",
+        "counterpoint": "Calendars reflect obligations more than they reflect values."
+    },
+    {
+        "wisdom": "A short list finished beats a long list started.",
+        "counterpoint": "A long list started shows ambition a short list never will."
+    },
+    {
+        "wisdom": "The urgent crowds out the important by default, not by accident.",
+        "counterpoint": "Urgency is often just importance with a shorter deadline attached."
+    },
+    {
+        "wisdom": "One deep problem solved is worth ten shallow ones managed.",
+        "counterpoint": "Shallow problems, solved fast, keep a whole system running smoothly."
+    },
+    {
+        "wisdom": "Attention is the only resource that doesn't refund itself.",
+        "counterpoint": "Rest genuinely does refund attention, given enough time."
+    },
+    {
+        "wisdom": "Growth that isn't retained is just churn with a delay.",
+        "counterpoint": "Fast growth still buys the time needed to fix retention later."
+    },
+    {
+        "wisdom": "A viral loop is just word of mouth with better instrumentation.",
+        "counterpoint": "Instrumented virality behaves nothing like organic word of mouth."
+    },
+    {
+        "wisdom": "The market rewards patience it never advertised.",
+        "counterpoint": "The market rewards speed far more visibly than patience."
+    },
+    {
+        "wisdom": "Growth hides quality problems until it doesn't.",
+        "counterpoint": "Growth is the clearest evidence that quality is already good enough."
+    },
+    {
+        "wisdom": "The compounding curve looks like nothing is happening, right up until it does.",
+        "counterpoint": "Waiting for compounding to kick in is how good ideas quietly die."
+    },
+    {
+        "wisdom": "Expansion revenue is a referendum on the product, not the sales team.",
+        "counterpoint": "Sales skill still determines whether expansion revenue is ever realized."
+    },
+    {
+        "wisdom": "A growth channel that isn't repeatable is a lucky break, not a strategy.",
+        "counterpoint": "Lucky breaks, seized quickly, are how most growth strategies actually start."
+    },
+    {
+        "wisdom": "Retention is the only growth metric that can't be faked with spend.",
+        "counterpoint": "Spend still buys the time retention needs to prove itself."
+    },
+    {
+        "wisdom": "The best growth strategy is a product people apologize for recommending too much.",
+        "counterpoint": "Restraint in recommendation is what keeps a brand feeling trustworthy."
+    },
+    {
+        "wisdom": "Culture is a product, and onboarding is its landing page.",
+        "counterpoint": "Culture is proven over years, not in a single first impression."
+    },
+    {
+        "wisdom": "A team's values are whatever gets rewarded, regardless of what's on the wall.",
+        "counterpoint": "Stated values still shape behavior even before they're consistently rewarded."
+    },
+    {
+        "wisdom": "Rituals outlast the reasons they were created for.",
+        "counterpoint": "Rituals without a living reason should be retired, not preserved."
+    },
+    {
+        "wisdom": "The stories a team tells about itself become the standards it holds itself to.",
+        "counterpoint": "Standards are set by leadership decisions, not by storytelling."
+    },
+    {
+        "wisdom": "Psychological safety and high standards are the same muscle, not opposites.",
+        "counterpoint": "High standards, pushed too far, are what erode psychological safety fastest."
+    },
+    {
+        "wisdom": "A culture that punishes bad news stops receiving it.",
+        "counterpoint": "Consequences for bad outcomes are what keep standards from slipping."
+    },
+    {
+        "wisdom": "Onboarding is where culture gets tested against its own claims.",
+        "counterpoint": "Culture is tested hardest in a crisis, not in onboarding."
+    },
+    {
+        "wisdom": "The fastest way to change a culture is to change who gets promoted.",
+        "counterpoint": "Culture changes through daily behavior long before it shows up in promotions."
+    },
+    {
+        "wisdom": "A team's humor tells you more about its culture than its mission statement does.",
+        "counterpoint": "Mission statements set direction that humor alone never could."
+    },
+    {
+        "wisdom": "Every process was once someone's answer to a one-time problem.",
+        "counterpoint": "Good process anticipates recurring problems, not just past ones."
+    },
+    {
+        "wisdom": "Culture debt is the hardest debt to refinance.",
+        "counterpoint": "Culture, unlike technical debt, can shift quickly with the right leadership change."
+    },
+    {
+        "wisdom": "The absence of a stated culture is still a culture, just an unmanaged one.",
+        "counterpoint": "Unstated culture can be exactly as strong as a stated one, if behavior is consistent."
+    }
+]
