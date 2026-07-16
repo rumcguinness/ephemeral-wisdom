@@ -36,4 +36,28 @@ describe('App', () => {
 
     expect(counterpointEl?.className).not.toMatch(/visible/);
   });
+
+  it('links to the actual repo, not the GitHub homepage', () => {
+    render(<App />);
+    const link = screen.getByRole('link', { name: /view on github/i });
+    expect(link).toHaveAttribute(
+      'href',
+      'https://github.com/rumcguinness/ephemeral-wisdom',
+    );
+  });
+
+  it('saves the current insight and lists it under Saved insights', () => {
+    window.localStorage.clear();
+    render(<App />);
+
+    const wisdomText = document.getElementById('wisdom-text')?.textContent;
+    fireEvent.click(screen.getByRole('button', { name: /save/i }));
+
+    expect(
+      screen.getByRole('heading', { name: /saved insights \(1\)/i }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('button', { name: wisdomText ?? '' }),
+    ).toBeInTheDocument();
+  });
 });

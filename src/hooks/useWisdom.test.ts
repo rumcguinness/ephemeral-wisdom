@@ -40,4 +40,30 @@ describe('useWisdom', () => {
     });
     expect(result.current.showCounterpoint).toBe(false);
   });
+
+  it('jumps directly to a given insight via goTo', () => {
+    const { result } = renderHook(() => useWisdom());
+    act(() => {
+      result.current.revealCounterpoint();
+    });
+
+    act(() => {
+      result.current.goTo(5);
+    });
+
+    expect(result.current.currentIndex).toBe(5);
+    expect(result.current.showCounterpoint).toBe(false);
+  });
+
+  it('ignores out-of-range ids passed to goTo', () => {
+    const { result } = renderHook(() => useWisdom());
+    const before = result.current.currentIndex;
+
+    act(() => {
+      result.current.goTo(-1);
+      result.current.goTo(wisdomData.length + 10);
+    });
+
+    expect(result.current.currentIndex).toBe(before);
+  });
 });

@@ -35,3 +35,25 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+
+/* The brutalist look (thick borders, hard drop shadows) reads as heavier on
+   small screens than it's meant to — scale it down rather than leave it
+   fixed at the same weight as desktop. */
+@media (max-width: 480px) {
+  :root {
+    --border-width: 2px;
+    --shadow-offset: 5px;
+    --shadow-offset-sm: 3px;
+  }
+
+  #root {
+    padding: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

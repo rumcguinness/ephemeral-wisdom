@@ -11,7 +11,7 @@
 }
 
 .header h1 {
-  font-size: 2.5em;
+  font-size: clamp(1.6em, 6vw, 2.5em);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -53,14 +53,20 @@
 }
 
 .wisdom {
-  font-size: 1.8em;
+  font-size: clamp(1.2em, 4.5vw, 1.8em);
   font-weight: 700;
   margin-bottom: 20px;
   text-align: left;
+  opacity: 1;
+  transition: opacity 1.2s ease;
+}
+
+.wisdom.faded {
+  opacity: 0.15;
 }
 
 .counterpoint {
-  font-size: 1.4em;
+  font-size: clamp(1em, 3.5vw, 1.4em);
   margin-top: 20px;
   padding-top: 20px;
   border-top: var(--border-width) solid var(--dark);
@@ -79,6 +85,7 @@
 
 .button-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
   margin-top: 20px;
 }
@@ -88,6 +95,8 @@ button {
   color: var(--dark);
   border: var(--border-width) solid var(--dark);
   padding: 12px 25px;
+  min-height: 44px;
+  flex: 1 1 auto;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1em;
   font-weight: 700;
@@ -112,6 +121,31 @@ button:disabled {
   cursor: not-allowed;
 }
 
+.favorite-toggle[aria-pressed='true'] {
+  background: var(--accent);
+}
+
+.favorites-card h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  margin-bottom: 15px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.favorite-item {
+  width: 100%;
+  text-align: left;
+  text-transform: none;
+  font-weight: 400;
+  white-space: normal;
+}
+
 .error-message {
   background: var(--primary);
   color: white;
@@ -132,16 +166,12 @@ button:disabled {
   color: inherit;
 }
 
-@media (max-width: 600px) {
-  .header h1 {
-    font-size: 2em;
+@media (max-width: 480px) {
+  .button-container {
+    flex-direction: column;
   }
 
-  .wisdom {
-    font-size: 1.5em;
-  }
-
-  .counterpoint {
-    font-size: 1.2em;
+  .button-container button {
+    width: 100%;
   }
 }

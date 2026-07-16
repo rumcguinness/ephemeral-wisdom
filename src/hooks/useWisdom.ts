@@ -50,6 +50,12 @@ export function useWisdom() {
     setShowCounterpoint(false);
   }, []);
 
+  const goTo = useCallback((id: number) => {
+    if (!Number.isInteger(id) || id < 0 || id >= DATA.length) return;
+    setCurrentIndex(id);
+    setShowCounterpoint(false);
+  }, []);
+
   const revealCounterpoint = useCallback(() => {
     setShowCounterpoint(true);
   }, []);
@@ -62,6 +68,7 @@ export function useWisdom() {
     total: DATA.length,
     showCounterpoint,
     next,
+    goTo,
     revealCounterpoint,
   };
 }
