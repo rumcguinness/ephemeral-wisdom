@@ -16,7 +16,7 @@ function App() {
     goTo,
     revealCounterpoint,
   } = useWisdom();
-  const { favorites, isFavorite, toggleFavorite } = useFavorites();
+  const { favorites, isFavorite, toggleFavorite, atCap } = useFavorites();
 
   return (
     <>
@@ -27,6 +27,7 @@ function App() {
         currentIndex={currentIndex}
         showCounterpoint={showCounterpoint}
         isFavorite={isFavorite(currentIndex)}
+        favoritesAtCap={atCap}
         onNext={next}
         onChallenge={revealCounterpoint}
         onToggleFavorite={toggleFavorite}

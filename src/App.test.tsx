@@ -54,7 +54,7 @@ describe('App', () => {
     fireEvent.click(screen.getByRole('button', { name: /save/i }));
 
     expect(
-      screen.getByRole('heading', { name: /saved insights \(1\)/i }),
+      screen.getByRole('heading', { name: /saved insights \(1\/15\)/i }),
     ).toBeInTheDocument();
     expect(
       screen.getByRole('button', { name: wisdomText ?? '' }),

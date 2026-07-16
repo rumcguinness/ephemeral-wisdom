@@ -7,6 +7,7 @@ interface WisdomCardProps {
   currentIndex: number;
   showCounterpoint: boolean;
   isFavorite: boolean;
+  favoritesAtCap: boolean;
   onNext: () => void;
   onChallenge: () => void;
   onToggleFavorite: (id: number) => void;
@@ -17,11 +18,13 @@ export function WisdomCard({
   currentIndex,
   showCounterpoint,
   isFavorite,
+  favoritesAtCap,
   onNext,
   onChallenge,
   onToggleFavorite,
 }: WisdomCardProps) {
   const ready = current !== null;
+  const saveDisabled = !ready || (favoritesAtCap && !isFavorite);
 
   // The insight fades toward (but not all the way to) transparent after a
   // period of inactivity — restored instantly on hover/focus/touch. Fading
@@ -74,9 +77,14 @@ export function WisdomCard({
         </button>
         <button
           onClick={() => onToggleFavorite(currentIndex)}
-          disabled={!ready}
+          disabled={saveDisabled}
           aria-pressed={isFavorite}
           className="favorite-toggle"
+          title={
+            saveDisabled
+              ? 'Saved insights are capped at 15 — remove one to save another.'
+              : undefined
+          }
         >
           {isFavorite ? '★ Saved' : '☆ Save'}
         </button>

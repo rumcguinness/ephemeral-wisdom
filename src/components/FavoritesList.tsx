@@ -1,4 +1,5 @@
 import wisdomData from '../data/wisdom.json';
+import { MAX_FAVORITES } from '../hooks/useFavorites';
 import type { Wisdom } from '../types';
 
 const DATA = wisdomData as Wisdom[];
@@ -18,7 +19,9 @@ export function FavoritesList({ favorites, onSelect }: FavoritesListProps) {
 
   return (
     <section className="card favorites-card">
-      <h2>Saved insights ({favorites.length})</h2>
+      <h2>
+        Saved insights ({favorites.length}/{MAX_FAVORITES})
+      </h2>
       <ul className="favorites-list">
         {favorites.map((id) => {
           const entry = DATA[id];
