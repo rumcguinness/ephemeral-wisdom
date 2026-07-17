@@ -14,37 +14,40 @@ function App() {
     showCounterpoint,
     next,
     goTo,
-    revealCounterpoint,
+    toggleCounterpoint,
   } = useWisdom();
   const { favorites, isFavorite, toggleFavorite, atCap } = useFavorites();
 
   return (
     <>
-      <Header />
-      <IntroCard />
-      <WisdomCard
-        current={current}
-        currentIndex={currentIndex}
-        showCounterpoint={showCounterpoint}
-        isFavorite={isFavorite(currentIndex)}
-        favoritesAtCap={atCap}
-        onNext={next}
-        onChallenge={revealCounterpoint}
-        onToggleFavorite={toggleFavorite}
-      />
+      <main className="frame">
+        <Header currentIndex={currentIndex} total={total} />
+        <IntroCard />
+        <WisdomCard
+          current={current}
+          currentIndex={currentIndex}
+          showCounterpoint={showCounterpoint}
+          isFavorite={isFavorite(currentIndex)}
+          favoritesAtCap={atCap}
+          favoritesCount={favorites.length}
+          onNext={next}
+          onChallenge={toggleCounterpoint}
+          onToggleFavorite={toggleFavorite}
+        />
+        <footer className="footer">
+          <p>
+            {total} insights, one at a time.{' '}
+            <a
+              href="https://github.com/rumcguinness/ephemeral-wisdom"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View on GitHub
+            </a>
+          </p>
+        </footer>
+      </main>
       <FavoritesList favorites={favorites} onSelect={goTo} />
-      <footer className="footer">
-        <p>
-          {total} insights, one at a time.{' '}
-          <a
-            href="https://github.com/rumcguinness/ephemeral-wisdom"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View on GitHub
-          </a>
-        </p>
-      </footer>
     </>
   );
 }

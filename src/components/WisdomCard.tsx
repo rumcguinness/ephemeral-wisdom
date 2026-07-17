@@ -1,5 +1,6 @@
 import { useFade } from '../hooks/useFade';
 import { useSwipe } from '../hooks/useSwipe';
+import { MAX_FAVORITES } from '../hooks/useFavorites';
 import type { Wisdom } from '../types';
 
 interface WisdomCardProps {
@@ -8,6 +9,7 @@ interface WisdomCardProps {
   showCounterpoint: boolean;
   isFavorite: boolean;
   favoritesAtCap: boolean;
+  favoritesCount: number;
   onNext: () => void;
   onChallenge: () => void;
   onToggleFavorite: (id: number) => void;
@@ -19,6 +21,7 @@ export function WisdomCard({
   showCounterpoint,
   isFavorite,
   favoritesAtCap,
+  favoritesCount,
   onNext,
   onChallenge,
   onToggleFavorite,
@@ -26,69 +29,71 @@ export function WisdomCard({
   const ready = current !== null;
   const saveDisabled = !ready || (favoritesAtCap && !isFavorite);
 
-  // The insight fades toward (but not all the way to) transparent after a
-  // period of inactivity — restored instantly on hover/focus/touch. Fading
-  // is paused once the counterpoint is revealed, since at that point you're
-  // meant to be comparing the two, not racing a timer.
-  const { faded, handlers: fadeHandlers } = useFade({
-    enabled: !showCounterpoint,
-    resetKey: current?.wisdom ?? currentIndex,
-  });
+  // The insight fades toward (but not all the way to) transparent — the
+  // "ephemeral" part of Ephemeral Wisdom. It keeps fading on its own
+  // schedule regardless of whether the counterpoint is open, so by the time
+  // you reveal it the counterpoint reads as the more prominent of the two.
+  const { opacity, transition } = useFade(current?.wisdom ?? currentIndex);
 
   const swipeHandlers = useSwipe(() => {
     if (ready) onNext();
   });
 
   return (
-    <section className="card" {...swipeHandlers}>
-      <div
-        className={`wisdom${faded ? ' faded' : ''}`}
-        id="wisdom-text"
-        aria-live="polite"
-        tabIndex={0}
-        {...fadeHandlers}
-      >
-        {current ? (
-          current.wisdom
-        ) : (
-          <span className="error-message" role="alert">
-            No insights loaded. Try refreshing the page.
-          </span>
-        )}
-      </div>
-
-      <div
-        className={`counterpoint${showCounterpoint ? ' visible' : ''}`}
-        id="counterpoint-text"
-        aria-live="polite"
-      >
-        {current?.counterpoint}
-      </div>
-
-      <div className="button-container">
-        <button onClick={onNext} disabled={!ready}>
-          New insight
-        </button>
-        <button
-          onClick={onChallenge}
-          disabled={!ready || showCounterpoint}
+    <>
+      <div className="insight-stage" {...swipeHandlers}>
+        <div className="insight-label">
+          &gt; insight<span className="cursor">_</span>
+        </div>
+        <div
+          className="wisdom"
+          id="wisdom-text"
+          aria-live="polite"
+          style={{ opacity, transition }}
         >
-          Counterpoint
+          {current ? (
+            current.wisdom
+          ) : (
+            <span className="error-message" role="alert">
+              No insights loaded. Try refreshing the page.
+            </span>
+          )}
+        </div>
+      </div>
+
+      {showCounterpoint && (
+        <div className="counterpoint-panel">
+          <div className="counterpoint-label">// counterpoint</div>
+          <div className="counterpoint-text" id="counterpoint-text" aria-live="polite">
+            {current?.counterpoint}
+          </div>
+        </div>
+      )}
+
+      <div className="button-row">
+        <button className="btn-primary" onClick={onNext} disabled={!ready}>
+          New Insight
+        </button>
+        <button className="btn-ghost" onClick={onChallenge} disabled={!ready}>
+          {showCounterpoint ? 'Hide Counterpoint' : 'Counterpoint'}
         </button>
         <button
+          className="btn-ghost"
           onClick={() => onToggleFavorite(currentIndex)}
           disabled={saveDisabled}
           aria-pressed={isFavorite}
-          className="favorite-toggle"
           title={
             saveDisabled
-              ? 'Saved insights are capped at 15 — remove one to save another.'
+              ? `Saved insights are capped at ${MAX_FAVORITES} — remove one to save another.`
               : undefined
           }
         >
           {isFavorite ? '★ Saved' : '☆ Save'}
         </button>
+        <div className="saved-count">
+          saved {favoritesCount}/{MAX_FAVORITES}
+        </div>
       </div>
-    </section>
+    </>
   );
 }

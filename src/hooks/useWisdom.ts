@@ -56,8 +56,8 @@ export function useWisdom() {
     setShowCounterpoint(false);
   }, []);
 
-  const revealCounterpoint = useCallback(() => {
-    setShowCounterpoint(true);
+  const toggleCounterpoint = useCallback(() => {
+    setShowCounterpoint((shown) => !shown);
   }, []);
 
   const current: Wisdom | null = DATA[currentIndex] ?? null;
@@ -69,6 +69,6 @@ export function useWisdom() {
     showCounterpoint,
     next,
     goTo,
-    revealCounterpoint,
+    toggleCounterpoint,
   };
 }

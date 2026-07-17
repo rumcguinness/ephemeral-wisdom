@@ -28,10 +28,21 @@ describe('useWisdom', () => {
     }
   });
 
-  it('resets showCounterpoint when a new insight is loaded', () => {
+  it('toggles showCounterpoint on and off, and resets it when a new insight loads', () => {
     const { result } = renderHook(() => useWisdom());
+
     act(() => {
-      result.current.revealCounterpoint();
+      result.current.toggleCounterpoint();
+    });
+    expect(result.current.showCounterpoint).toBe(true);
+
+    act(() => {
+      result.current.toggleCounterpoint();
+    });
+    expect(result.current.showCounterpoint).toBe(false);
+
+    act(() => {
+      result.current.toggleCounterpoint();
     });
     expect(result.current.showCounterpoint).toBe(true);
 
@@ -44,7 +55,7 @@ describe('useWisdom', () => {
   it('jumps directly to a given insight via goTo', () => {
     const { result } = renderHook(() => useWisdom());
     act(() => {
-      result.current.revealCounterpoint();
+      result.current.toggleCounterpoint();
     });
 
     act(() => {

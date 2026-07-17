@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { act, renderHook } from '@testing-library/react';
-import { useFade, FADE_DELAY_MS } from './useFade';
+import { useFade, FADE_DURATION_S, FADE_TARGET_OPACITY } from './useFade';
 
 describe('useFade', () => {
   beforeEach(() => {
@@ -11,74 +11,41 @@ describe('useFade', () => {
     vi.useRealTimers();
   });
 
-  it('starts fully visible', () => {
-    const { result } = renderHook(() => useFade({ enabled: true, resetKey: 'a' }));
-    expect(result.current.faded).toBe(false);
+  it('starts fully opaque with no transition', () => {
+    const { result } = renderHook(() => useFade('a'));
+    expect(result.current.opacity).toBe(1);
+    expect(result.current.transition).toBe('none');
   });
 
-  it('fades after the delay elapses', () => {
-    const { result } = renderHook(() => useFade({ enabled: true, resetKey: 'a' }));
+  it('begins fading to the target opacity shortly after mount', () => {
+    const { result } = renderHook(() => useFade('a'));
 
     act(() => {
-      vi.advanceTimersByTime(FADE_DELAY_MS);
+      vi.advanceTimersByTime(60);
     });
 
-    expect(result.current.faded).toBe(true);
+    expect(result.current.opacity).toBe(FADE_TARGET_OPACITY);
+    expect(result.current.transition).toBe(`opacity ${FADE_DURATION_S}s linear`);
   });
 
-  it('does not fade when disabled', () => {
-    const { result } = renderHook(() => useFade({ enabled: false, resetKey: 'a' }));
-
-    act(() => {
-      vi.advanceTimersByTime(FADE_DELAY_MS);
+  it('resets to full opacity and restarts the fade when resetKey changes', () => {
+    const { result, rerender } = renderHook(({ key }) => useFade(key), {
+      initialProps: { key: 'a' },
     });
 
-    expect(result.current.faded).toBe(false);
-  });
+    act(() => {
+      vi.advanceTimersByTime(60);
+    });
+    expect(result.current.opacity).toBe(FADE_TARGET_OPACITY);
 
-  it('restores full opacity and restarts the timer on interaction', () => {
-    const { result } = renderHook(() => useFade({ enabled: true, resetKey: 'a' }));
+    rerender({ key: 'b' });
+    expect(result.current.opacity).toBe(1);
+    expect(result.current.transition).toBe('none');
 
     act(() => {
-      vi.advanceTimersByTime(FADE_DELAY_MS);
+      vi.advanceTimersByTime(60);
     });
-    expect(result.current.faded).toBe(true);
-
-    act(() => {
-      result.current.handlers.onMouseEnter();
-    });
-    expect(result.current.faded).toBe(false);
-
-    // Should not fade again until a full new delay has passed.
-    act(() => {
-      vi.advanceTimersByTime(FADE_DELAY_MS - 1);
-    });
-    expect(result.current.faded).toBe(false);
-
-    act(() => {
-      vi.advanceTimersByTime(1);
-    });
-    expect(result.current.faded).toBe(true);
-  });
-
-  it('resets to visible and restarts the timer when resetKey changes', () => {
-    const { result, rerender } = renderHook(
-      ({ resetKey }) => useFade({ enabled: true, resetKey }),
-      { initialProps: { resetKey: 'a' } },
-    );
-
-    act(() => {
-      vi.advanceTimersByTime(FADE_DELAY_MS);
-    });
-    expect(result.current.faded).toBe(true);
-
-    rerender({ resetKey: 'b' });
-    expect(result.current.faded).toBe(false);
-
-    act(() => {
-      vi.advanceTimersByTime(FADE_DELAY_MS);
-    });
-    expect(result.current.faded).toBe(true);
+    expect(result.current.opacity).toBe(FADE_TARGET_OPACITY);
   });
 
   it('never fades when prefers-reduced-motion is set', () => {
@@ -93,12 +60,13 @@ describe('useFade', () => {
       dispatchEvent: () => false,
     } as unknown as MediaQueryList);
 
-    const { result } = renderHook(() => useFade({ enabled: true, resetKey: 'a' }));
+    const { result } = renderHook(() => useFade('a'));
 
     act(() => {
-      vi.advanceTimersByTime(FADE_DELAY_MS);
+      vi.advanceTimersByTime(60_000);
     });
-    expect(result.current.faded).toBe(false);
+
+    expect(result.current.opacity).toBe(1);
 
     matchMediaSpy.mockRestore();
   });

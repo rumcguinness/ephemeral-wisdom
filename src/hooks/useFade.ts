@@ -1,6 +1,9 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
-export const FADE_DELAY_MS = 10_000;
+/** How long the linear fade-out takes, in seconds. */
+export const FADE_DURATION_S = 10;
+/** Opacity the insight settles at once faded (0–1). */
+export const FADE_TARGET_OPACITY = 0.1;
 
 function prefersReducedMotion(): boolean {
   if (typeof window === 'undefined' || typeof window.matchMedia !== 'function') {
@@ -13,57 +16,48 @@ function prefersReducedMotion(): boolean {
   }
 }
 
-interface UseFadeOptions {
-  /** Whether the fade behaviour is active at all right now. */
-  enabled: boolean;
-  /** Changing this value resets the fade timer (e.g. a new insight loaded). */
-  resetKey: unknown;
-  delayMs?: number;
-}
-
 /**
- * Fades content out (to near-transparent, not fully invisible) after a period
- * of inactivity — the "ephemeral" part of Ephemeral Wisdom. Any interaction
- * (hover, focus, touch) immediately restores full opacity and restarts the
- * countdown. Disabled automatically for prefers-reduced-motion users.
+ * Drives the "ephemeral" fade: the insight starts at full opacity, then
+ * (almost immediately) begins a continuous linear fade down to
+ * FADE_TARGET_OPACITY over FADE_DURATION_S seconds, so it's still legible
+ * by the time anyone reveals the counterpoint. Resets to full opacity
+ * whenever `resetKey` changes (a new insight loaded). Disabled for
+ * prefers-reduced-motion users, who stay at full opacity throughout.
+ *
+ * Returns inline-style-ready `opacity`/`transition` values — mirrors the
+ * reference prototype's approach of snapping to opacity 1 with
+ * transition: none, then on the next tick setting the target opacity with
+ * a linear transition, so the fade always animates from a clean starting
+ * point rather than interrupting a prior transition.
  */
-export function useFade({ enabled, resetKey, delayMs = FADE_DELAY_MS }: UseFadeOptions) {
-  const [faded, setFaded] = useState(false);
+export function useFade(resetKey: unknown) {
+  const [opacity, setOpacity] = useState(1);
+  const [transition, setTransition] = useState('none');
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const clearTimer = useCallback(() => {
+  useEffect(() => {
     if (timerRef.current !== null) {
       clearTimeout(timerRef.current);
       timerRef.current = null;
     }
-  }, []);
 
-  const startTimer = useCallback(() => {
-    clearTimer();
-    if (!enabled || prefersReducedMotion()) return;
-    timerRef.current = setTimeout(() => setFaded(true), delayMs);
-  }, [clearTimer, enabled, delayMs]);
+    setOpacity(1);
+    setTransition('none');
 
-  useEffect(() => {
-    setFaded(false);
-    startTimer();
-    return clearTimer;
-    // resetKey and enabled intentionally drive this effect; startTimer/clearTimer
-    // are stable across the values that matter here.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [resetKey, enabled]);
+    if (prefersReducedMotion()) return;
 
-  const wake = useCallback(() => {
-    setFaded(false);
-    startTimer();
-  }, [startTimer]);
+    timerRef.current = setTimeout(() => {
+      setOpacity(FADE_TARGET_OPACITY);
+      setTransition(`opacity ${FADE_DURATION_S}s linear`);
+    }, 60);
 
-  return {
-    faded: enabled && faded,
-    handlers: {
-      onMouseEnter: wake,
-      onFocus: wake,
-      onTouchStart: wake,
-    },
-  };
+    return () => {
+      if (timerRef.current !== null) {
+        clearTimeout(timerRef.current);
+        timerRef.current = null;
+      }
+    };
+  }, [resetKey]);
+
+  return { opacity, transition };
 }

@@ -18,7 +18,7 @@ export function FavoritesList({ favorites, onSelect }: FavoritesListProps) {
   if (favorites.length === 0) return null;
 
   return (
-    <section className="card favorites-card">
+    <section className="favorites-card">
       <h2>
         Saved insights ({favorites.length}/{MAX_FAVORITES})
       </h2>

@@ -1,7 +1,15 @@
-export function Header() {
+interface HeaderProps {
+  currentIndex: number;
+  total: number;
+}
+
+export function Header({ currentIndex, total }: HeaderProps) {
   return (
-    <header className="header">
-      <h1>Ephemeral Wisdom</h1>
-    </header>
+    <div className="meta-bar">
+      <span className="meta-bar-brand">EPHEMERAL_WISDOM</span>
+      <span>
+        id:{currentIndex} / {total}
+      </span>
+    </div>
   );
 }

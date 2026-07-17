@@ -1,14 +1,24 @@
-/* Design tokens — carried forward from the original brutalist build */
+/* Design tokens — "2c · Cool Signal" redesign (dark, cool-toned terminal
+   aesthetic). Replaces the original brutalist orange/yellow/green palette. */
 :root {
-  --primary: #ff4f00;
-  --secondary: #00ff94;
-  --accent: #ffe600;
-  --dark: #1a1a1a;
-  --light: #f5f5f5;
+  --bg-frame: #0b1211;
+  --bg-counterpoint: #0d1a18;
+  --border-hairline: #1e2b29;
+  --border-counterpoint: #234c47;
+  --border-ghost: #2b3f3c;
 
-  --border-width: 3px;
-  --shadow-offset: 8px;
-  --shadow-offset-sm: 4px;
+  --text-primary: #e6ece9;
+  --text-body: #c8d3d0;
+  --text-intro: #8aa09b;
+  --text-meta: #6f817d;
+  --text-meta-dim: #5f716d;
+
+  --accent: #3ad6c6;
+  --accent-hover: #57e6d8;
+  --on-accent: #06100e;
+
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Space Grotesk', sans-serif;
 }
 
 * {
@@ -24,31 +34,16 @@ body,
 }
 
 body {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: var(--font-mono);
   line-height: 1.6;
-  background: var(--light);
-  color: var(--dark);
+  background: var(--bg-frame);
+  color: var(--text-primary);
 }
 
 #root {
-  max-width: 900px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 20px;
-}
-
-/* The brutalist look (thick borders, hard drop shadows) reads as heavier on
-   small screens than it's meant to — scale it down rather than leave it
-   fixed at the same weight as desktop. */
-@media (max-width: 480px) {
-  :root {
-    --border-width: 2px;
-    --shadow-offset: 5px;
-    --shadow-offset-sm: 3px;
-  }
-
-  #root {
-    padding: 12px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
